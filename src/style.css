@@ -1,0 +1,53 @@
+@import "tailwindcss";
+/* ------------------ RESET GENERAL ------------------ */
+@layer 
+base
+ {
+  *, *::before, *::after {
+    
+box-sizing
+: border-box;
+  }
+
+  * {
+    
+margin
+: 0;
+    
+padding
+: 0;
+    
+box-sizing
+: border-box;
+  }
+
+  html {
+    
+font-family
+: sans-serif;
+    /* color: #333; */
+  }
+}
+@layer utilities{
+
+  /* ----------------Logo clip-path------------------------*/
+  #logo{
+    clip-path: polygon(30% 0%,70% 0%,100% 30%,100% 70%,70% 100%,30% 100%,0% 70%,0% 30%);
+    background-color: rgba(0, 0, 0, 0.288);
+    backdrop-filter: blur(15px);
+  }
+
+/* ------------------menu desplegable------------------- */
+
+.ocultar{
+  display: none;
+}
+
+/* --------------------modo oscuro----------------------- */
+.dark{
+  color: black;
+  background: beige;
+}
+
+
+}

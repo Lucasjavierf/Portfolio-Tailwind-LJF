@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./public/imgs/LogoLJF.svg" alt=""/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <title>Lucas Fernandez!</title>
+  </head>
+  <body class="bg-[#2b2e47] text-white">
+    <header>
+      <nav>
+        <!-- --------------------------------------Menu desplegable---------------------------------------------------------- -->
+        <section #Menu-desplegable class="shadow-2xl fixed w-full backdrop-blur-3xl bg-white/10 rounded-b-xl flex flex-col md:hidden">
+          <div  class="flex items-center justify-between p-2 ">
+            <span class="ml-2">
+              <i class="fa-solid fa-bars burger cursor-pointer"></i>
+            </span>
+            <div>
+              <img src="./public/imgs/LogoLJF.svg" alt="" id="logo" class="w-8 h-8 object-contain mr-2">
+            </div>
+          </div>
+          <div class="side-bar ocultar">
+              <ul class="flex flex-col gap-2 ml-2 p-2">
+                <a href="#">Inicio</a>
+                <a href="#">Certificados</a>
+                <a href="#">Proyectos</a>
+                <a href="#">Contacto</a>
+                <span id="switch" class="cursor-pointer"><i class="fa-solid fa-circle-half-stroke" ></i></span>
+              </ul>
+          </div>
+        </section>
+
+
+        <!-- ------------------------------------Menu desktop----------------------------------------------------- -->
+        <section #Menu-desktop class="hidden  md:block backdrop-blur-3xl bg-white/10  fixed w-full h-16 content-center shadow-2xl" >
+          <div class="flex items-center justify-evenly " >
+            <div>
+              <img src="./public/imgs/LogoLJF.svg" alt="" id="logo" class="  w-8 h-8 object-contain   ">
+            </div>
+            <div class=" flex items-end justify-end gap-16  text-[1.2rem]">
+              
+                <a href="#">Inicio</a>
+                <a href="#">Certificados</a>
+                <a href="#">Proyectos</a>
+                <a href="#">Contacto</a>
+                <span id="switch2" class="cursor-pointer"><i class="fa-solid fa-circle-half-stroke" ></i></span>
+              
+            </div>
+          </div>
+        </section>
+  
+      </nav>
+    </header>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
