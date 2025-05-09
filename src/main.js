@@ -17,6 +17,11 @@ function toggleDarkMode() {
 btnswitch.addEventListener('click',toggleDarkMode)
 btnswitch2.addEventListener('click',toggleDarkMode)
 
+/* --------------------------------------------Slide tecnologias---------------------------------- */
+
+const iconos=document.getElementById('slider-track').cloneNode(true)
+document.getElementById('contenedor-slide').appendChild(iconos);
+
 /* -----------------------------------------------------AOZ animaciones---------------------------------- */
 /* AOS.init();
  */

@@ -62,5 +62,30 @@ background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-2
 background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
+/* ----------------------slide infinito utilidad----------------- */
+/* .slide{
+  animation: 10s slide infinite linear;
+}
 
+@keyframes slide {
+  from{
+    transform: translateX(0);
+  }
+  to{
+    transform: translateX(-50%);
+  }
+} */
+#slider-track {
+  display: flex;
+  animation: slide 15s linear infinite;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
 }
