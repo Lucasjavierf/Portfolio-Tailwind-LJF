@@ -1,42 +1,52 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Cinzel:wght@400..900&family=Kumbh+Sans:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 /* ------------------ RESET GENERAL ------------------ */
 @layer 
 base
  {
-  *, *::before, *::after {
+ /*  *, *::before, *::after {
     
-box-sizing
-: border-box;
-  }
+box-sizing: border-box;
+  } */
 
   * {
     
-margin
-: 0;
+margin: 0;
     
-padding
-: 0;
+padding: 0;
     
-box-sizing
-: border-box;
+box-sizing: border-box;
   }
 
   html {
     
-font-family
-: sans-serif;
+font-family: 'Poppins', sans-serif;
     /* color: #333; */
+    
   }
 }
 @layer utilities{
 
-  /* ----------------Logo clip-path------------------------*/
+/* --------------fuente------------------- */
+.custom-font {
+  font-family: "Roboto-400", sans-serif;
+}
+
+  /* ---------------- clip-path------------------------*/
   #logo{
     clip-path: polygon(30% 0%,70% 0%,100% 30%,100% 70%,70% 100%,30% 100%,0% 70%,0% 30%);
     background-color: rgba(0, 0, 0, 0.288);
     backdrop-filter: blur(15px);
   }
 
+  #img-perfil{
+    clip-path: circle(50% at 50% 50%);
+    border: 1px solid rgba(255, 255, 255, 0);
+    backdrop-filter: blur(15px);
+    background-color: #fff3;
+    box-shadow: 0 2px 32px #000000a8;
+    
+  }
 /* ------------------menu desplegable------------------- */
 
 .ocultar{
@@ -46,8 +56,11 @@ font-family
 /* --------------------modo oscuro----------------------- */
 .dark{
   color: black;
-  background: beige;
-}
+  /* background: #9aa2e3; */
+  background: #E0EAFC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+}
 
 }

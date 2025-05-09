@@ -16,3 +16,7 @@ function toggleDarkMode() {
   }
 btnswitch.addEventListener('click',toggleDarkMode)
 btnswitch2.addEventListener('click',toggleDarkMode)
+
+/* -----------------------------------------------------AOZ animaciones---------------------------------- */
+/* AOS.init();
+ */

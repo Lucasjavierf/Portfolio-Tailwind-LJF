@@ -5,49 +5,50 @@
     <link rel="icon" type="image/svg+xml" href="./public/imgs/LogoLJF.svg" alt=""/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./src/style.css">
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Lucas Fernandez!</title>
   </head>
-  <body class="bg-[#2b2e47] text-white">
+  <body class="bg-gradient-to-b from-[#2b2e47] to-[#44476b] text-[#f8f8fe] ">
     <header>
       <nav>
         <!-- --------------------------------------Menu desplegable---------------------------------------------------------- -->
-        <section #Menu-desplegable class="shadow-2xl fixed w-full backdrop-blur-3xl bg-white/10 rounded-b-xl flex flex-col md:hidden">
+        <section #Menu-desplegable class="shadow-2xl fixed top-0 w-full backdrop-blur-3xl bg-white/10 rounded-b-xl flex flex-col z-50 md:hidden">
           <div  class="flex items-center justify-between p-2 ">
             <span class="ml-2">
-              <i class="fa-solid fa-bars burger cursor-pointer"></i>
+              <i class="fa-solid fa-bars burger cursor-pointer hover:text-amber-200"></i>
             </span>
             <div>
               <img src="./public/imgs/LogoLJF.svg" alt="" id="logo" class="w-8 h-8 object-contain mr-2">
             </div>
           </div>
           <div class="side-bar ocultar">
-              <ul class="flex flex-col gap-2 ml-2 p-2">
-                <a href="#">Inicio</a>
-                <a href="#">Certificados</a>
-                <a href="#">Proyectos</a>
-                <a href="#">Contacto</a>
-                <span id="switch" class="cursor-pointer"><i class="fa-solid fa-circle-half-stroke" ></i></span>
+              <ul class="flex flex-col gap-2 ml-2 p-2 ">
+                <a href="#" class="hover:text-amber-200">BIO</a>
+                <a href="#" class="hover:text-amber-200">CERTIFICADOS</a>
+                <a href="#" class="hover:text-amber-200">PROYECTOS</a>
+                <a href="#" class="hover:text-amber-200">CONTACTO</a>
+                <span id="switch" class="cursor-pointer hover:text-amber-200"><i class="fa-solid fa-circle-half-stroke" ></i></span>
               </ul>
           </div>
         </section>
 
 
         <!-- ------------------------------------Menu desktop----------------------------------------------------- -->
-        <section #Menu-desktop class="hidden  md:block backdrop-blur-3xl bg-white/10  fixed w-full h-16 content-center shadow-2xl" >
+        <section #Menu-desktop class="hidden  md:block backdrop-blur-3xl bg-white/10  fixed top-0 w-full h-16 content-center shadow-2xl z-50" >
           <div class="flex items-center justify-evenly " >
             <div>
               <img src="./public/imgs/LogoLJF.svg" alt="" id="logo" class="  w-8 h-8 object-contain   ">
             </div>
-            <div class=" flex items-end justify-end gap-16  text-[1.2rem]">
+            <div class=" flex items-end justify-end gap-16  text-[16px] font-sans ">
               
-                <a href="#">Inicio</a>
-                <a href="#">Certificados</a>
-                <a href="#">Proyectos</a>
-                <a href="#">Contacto</a>
-                <span id="switch2" class="cursor-pointer"><i class="fa-solid fa-circle-half-stroke" ></i></span>
+              <a href="#" class="hover:text-amber-200 ">BIO</a>
+              <a href="#" class="hover:text-amber-200 ">CERTIFICADOS</a>
+              <a href="#" class="hover:text-amber-200 ">HABILIDADES</a>
+              <a href="#" class="hover:text-amber-200 ">PROYECTOS</a>
+              <a href="#" class="hover:text-amber-200 ">CONTACTO</a>
+                <span id="switch2" class="cursor-pointer hover:text-amber-200 "><i class="fa-solid fa-circle-half-stroke" ></i></span>
               
             </div>
           </div>
@@ -55,6 +56,60 @@
   
       </nav>
     </header>
+    <main class="flex flex-col gap-20">
+      <!-- ------------------------------BIO  /  inicio------------------------------ -->
+        <section class="mt-32 flex flex-col justify-center  md:flex-row-reverse gap-16 pb-8 mx-4 backdrop-blur-2xl md:border-b-2 md:border-x-2 rounded-3xl md:shadow-2xs md:mt-38" data-aos="fade-right" data-aos-anchor-placement="top-bottom  data-aos=" data-aos-duration="2000">
+          <div class="flex items-center justify-center">
+            <img src="./public/imgs/unnamed-removebg.png" alt="" id="img-perfil" class=" transition-transform duration-300 ease-linear hover:scale-105" >
+          </div>
+          <div class="flex flex-col items-center justify-center mt-12 text-center">
+              <h1 class="text-6xl  font-bold hover:text-amber-200 transition-all">LUCAS JAVIER FERNANDEZ</h1>
+              <div class="flex flex-col gap-4 text-3xl lg:flex-row ">
+                <h2 class="hover:text-amber-200 transition-all">FULLSTACK DEVELOPER</h2>
+                <div class="text-[color:gold] " >
+                  <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                  <a href="#"><i class="fa-brands fa-github"></i></a>
+                  <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+              </div>
+          </div>
+        </section>
+
+        <!-- -----------------------------BIO / Sobre Mi----------------------------------------- -->
+         
+        <section id="abautMe" class="flex flex-col gap-16 md:mt-12 md:border-x-2 rounded-2xl mx-4" data-aos="fade-up-left" data-aos-duration="2000">
+
+          <div class="flex flex-col justify-center mx-20 gap-8 " >
+            <h2 class="text-3xl text-center font-bold hover:text-amber-200">SOBRE MI.</h2>
+            <div class="md:flex gap-6 ">
+              <img src="./public/imgs/freepik-developer.jpg" alt="" class="hidden md:block w-104 h-70 object-cover rounded-3xl" data-aos="fade-right" data-aos-duration="2000">
+              <p  class="items-center text-[1.1rem] md:flex justify-center " data-aos="fade-left" data-aos-duration="2000">
+                Soy estudiante de Sistemas y desarrollador full stack con conocimientos en programación web. 
+                Estoy en constante aprendizaje para profundizar en nuevas tecnologías y seguir creciendo en el sector IT.
+                Busco oportunidades en donde pueda aplicar mis habilidades, enfrentar nuevos desafíos y contribuir al crecimiento de un equipo. 
+                Me caracterizo por mi compromiso, mi capacidad de adaptación y mi habilidad para aprender rápidamente.
+              </p>
+            </div>
+            
+          </div>
+
+          <div class="flex flex-col gap-4 ">
+            <h3 class="text-3xl font-bold text-center hover:text-amber-200">CURRICULUM VITAE</h3>
+            <div class="text-center text-6xl hover:text-amber-200">
+            <a  href="" target="_blank"><i class="fa-solid fa-download"></i></a>
+          </div>
+        </section>
+        
+        <!-- ---------------------------------------Tenologias--------------------------------------------------------- -->
+        <div class="h-[1200px]">
+          
+        </div>
+    </main>
+    
     <script type="module" src="/src/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
