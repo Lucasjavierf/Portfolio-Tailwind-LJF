@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./public/imgs/LogoLJF.svg" alt=""/>
+    <link rel="icon" type="image/svg+xml" href="./public/imgs/LogoLJF.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./src/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap">
@@ -10,11 +10,11 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Lucas Fernandez!</title>
   </head>
-  <body class="bg-gradient-to-b from-[#2b2e47] to-[#44476b] text-[#f8f8fe] ">
+  <body class="bg-gradient-to-b from-[#2b2e47] to-[#44476b] text-[#f8f8fe]">
     <header>
       <nav>
         <!-- --------------------------------------Menu desplegable---------------------------------------------------------- -->
-        <section #Menu-desplegable class="shadow-2xl fixed top-0 w-full backdrop-blur-3xl bg-white/10 rounded-b-xl flex flex-col z-50 md:hidden">
+        <section id="Menu-desplegable" class="shadow-2xl fixed top-0 w-full backdrop-blur-3xl bg-white/10 rounded-b-xl flex flex-col z-50 md:hidden">
           <div  class="flex items-center justify-between p-2 ">
             <span class="ml-2">
               <i class="fa-solid fa-bars burger cursor-pointer hover:text-amber-200"></i>
@@ -26,6 +26,7 @@
           <div class="side-bar ocultar">
               <ul class="flex flex-col gap-2 ml-2 p-2 ">
                 <a href="#" class="hover:text-amber-200">BIO</a>
+                <a href="#tec-mobile" class="hover:text-amber-200">TECNOLOGIAS</a>
                 <a href="#" class="hover:text-amber-200">CERTIFICADOS</a>
                 <a href="#" class="hover:text-amber-200">PROYECTOS</a>
                 <a href="#" class="hover:text-amber-200">CONTACTO</a>
@@ -36,7 +37,7 @@
 
 
         <!-- ------------------------------------Menu desktop----------------------------------------------------- -->
-        <section #Menu-desktop class="hidden  md:block backdrop-blur-3xl bg-white/10  fixed top-0 w-full h-16 content-center shadow-2xl z-50" >
+        <section id="Menu-desktop" class="hidden  md:block backdrop-blur-3xl bg-white/10  fixed top-0 w-full h-16 content-center shadow-2xl z-50" >
           <div class="flex items-center justify-evenly " >
             <div>
               <img src="./public/imgs/LogoLJF.svg" alt="" id="logo" class="  w-8 h-8 object-contain   ">
@@ -44,8 +45,8 @@
             <div class=" flex items-end justify-end gap-16  text-[16px] font-sans ">
               
               <a href="#" class="hover:text-amber-200 ">BIO</a>
+              <a href="#tec-desktop" class="hover:text-amber-200 ">TECNOLOGIAS</a>
               <a href="#" class="hover:text-amber-200 ">CERTIFICADOS</a>
-              <a href="#" class="hover:text-amber-200 ">HABILIDADES</a>
               <a href="#" class="hover:text-amber-200 ">PROYECTOS</a>
               <a href="#" class="hover:text-amber-200 ">CONTACTO</a>
                 <span id="switch2" class="cursor-pointer hover:text-amber-200 "><i class="fa-solid fa-circle-half-stroke" ></i></span>
@@ -67,9 +68,9 @@
               <div class="flex flex-col gap-4 text-3xl lg:flex-row ">
                 <h2 class="hover:text-amber-200 transition-all">FULLSTACK DEVELOPER</h2>
                 <div class="text-[color:gold] " >
-                  <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                  <a href="#"><i class="fa-brands fa-github"></i></a>
-                  <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                  <a href="https://www.linkedin.com/in/lucasjavierfernandez/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                  <a href="https://github.com/Lucasjavierf" target="_blank"><i class="fa-brands fa-github"></i></a>
+                  <a href="mailto:lucasjavierf10@gmail.com" target="_blank" ><i class="fa-solid fa-envelope"></i></a>
                 </div>
               </div>
           </div>
@@ -77,7 +78,7 @@
 
         <!-- -----------------------------BIO / Sobre Mi----------------------------------------- -->
          
-        <section id="abautMe" class="flex flex-col gap-16 md:mt-12 md:border-x-2 rounded-2xl mx-4" data-aos="fade-up-left" data-aos-duration="2000">
+        <section id="abautMe" class="flex flex-col gap-14 md:mt-12 md:border-x-2 rounded-2xl mx-4 " data-aos="fade-up-left" data-aos-duration="2000">
 
           <div class="flex flex-col justify-center mx-20 gap-8 " >
             <h2 class="text-3xl text-center font-bold hover:text-amber-200">SOBRE MI.</h2>
@@ -96,90 +97,90 @@
           <div class="flex flex-col gap-4 ">
             <h3 class="text-3xl font-bold text-center hover:text-amber-200">CURRICULUM VITAE</h3>
             <div class="text-center text-6xl hover:text-amber-200">
-            <a  href="" target="_blank"><i class="fa-solid fa-download"></i></a>
+            <a  href="https://drive.google.com/file/d/1wU_vMkvAIBXYcGXiDXH-l5wm2yo28Odr/view?usp=sharing" target="_blank"><i class="fa-solid fa-download"></i></a>
           </div>
         </section>
         
         <!---------- ---------------------------------------Tenologias--------------------------------------------------------- -->
         <h2 class="text-center text-3xl mt-12 font-bold hover:text-amber-200" data-aos="flip-down" data-aos-duration="2000">TECNOLOGIAS / HERRAMIENTAS</h2>
          <!-- ---------------------------------------------pantalla celular------------------------------------------------------------ -->
-         <section>
-          <div class="border-x-2 rounded-3xl mx-16" data-aos="flip-left" data-aos-duration="2000">
+         <section id="tec-mobile">
+          <div class=" mx-16" data-aos="flip-left" data-aos-duration="2000">
             <div class="grid grid-cols-2 grid-rows-5  place-items-center gap-4 md:hidden ">
-              <div class="flex flex-col justify-center items-center gap-2 border-2 hover:border-amber-200 rounded-3xl h-fit w-fit p-4">
+              <div class=" card-lev flex flex-col justify-center items-center gap-2 border-2 hover:border-amber-200 rounded-3xl h-fit w-fit p-4">
                 <img src="./public/imgs/HTML5_svg.png" alt="" class="w-20 h-20 object-contain" >
                 <p>HTML</p></div>
-              <div class="flex flex-col justify-center items-center gap-2 border-2 hover:border-amber-200 rounded-3xl h-fit w-fit p-4">
+              <div class="card-lev flex flex-col justify-center items-center gap-2 border-2 hover:border-amber-200 rounded-3xl h-fit w-fit p-4">
                 <img src="./public/logos/css.svg" alt="" class="w-20 h-20 object-contain" >
                 <p>CSS</p></div>
-              <div class="flex flex-col justify-center items-center gap-2 border-2 hover:border-amber-200 rounded-3xl h-fit w-fit p-4">
+              <div class="card-lev flex flex-col justify-center items-center gap-2 border-2 hover:border-amber-200 rounded-3xl h-fit w-fit p-4">
                 <img src="./public/logos/javascript.svg" alt="" class="w-20 h-20 object-contain" >
                 <p>JavaScript</p></div>
-              <div class="flex flex-col justify-center items-center gap-2 border-2 hover:border-amber-200 rounded-3xl h-fit w-fit p-4">
+              <div class="card-lev flex flex-col justify-center items-center gap-2 border-2 hover:border-amber-200 rounded-3xl h-fit w-fit p-4">
                 <img src="./public/logos/tailwindcss.svg" alt="" class="w-20 h-20 object-contain" >
                 <p>Tailwind</p></div>
-              <div class="flex flex-col justify-center items-center gap-2 border-2 hover:border-amber-200 rounded-3xl h-fit w-fit p-4">
+              <div class="card-lev flex flex-col justify-center items-center gap-2 border-2 hover:border-amber-200 rounded-3xl h-fit w-fit p-4">
                 <img src="./public/logos/React_light_dark/React_dark.svg" alt="" class="w-20 h-20 object-contain" >
                 <p>React</p></div>
-              <div class="flex flex-col justify-center items-center gap-2 border-2 hover:border-amber-200 rounded-3xl h-fit w-fit p-4">
+              <div class="card-levflex flex-col justify-center items-center gap-2 border-2 hover:border-amber-200 rounded-3xl h-fit w-fit p-4">
                 <img src="./public/logos/angular.svg" alt="" class="w-20 h-20 object-contain" >
-                <p>Angular</p></div>
-              <div class="flex flex-col justify-center items-center gap-2 border-2 hover:border-amber-200 rounded-3xl h-fit w-fit p-4">
+                <p>Angular </p></div>
+              <div class="card-lev flex flex-col justify-center items-center gap-2 border-2 hover:border-amber-200 rounded-3xl h-fit w-fit p-4">
                 <img src="./public/logos/nodejs.svg" alt="" class="w-20 h-20 object-contain ">
                 <p>NodeJs</p></div>
-              <div class="flex flex-col justify-center items-center gap-2 border-2 hover:border-amber-200 rounded-3xl h-fit w-fit p-4">
+              <div class="card-lev flex flex-col justify-center items-center gap-2 border-2 hover:border-amber-200 rounded-3xl h-fit w-fit p-4">
                 <img src="./public/logos/mongodb.svg" alt="" class="w-20 h-20 object-contain" >
                 <p>MongoDB</p></div>
-              <div class="flex flex-col justify-center items-center gap-2 border-2 hover:border-amber-200 rounded-3xl h-fit w-fit p-4">
+              <div class="card-lev flex flex-col justify-center items-center gap-2 border-2 hover:border-amber-200 rounded-3xl h-fit w-fit p-4">
                 <img src="./public/logos/git.svg" alt="" class="w-20 h-20 object-contain" >
                 <p>Git</p></div>
-              <div class="flex flex-col justify-center items-center gap-2 border-2 hover:border-amber-200 rounded-3xl h-fit w-fit p-4">
+              <div class="card-lev flex flex-col justify-center items-center gap-2 border-2 hover:border-amber-200 rounded-3xl h-fit w-fit p-4">
                 <img src="./public/logos/bash_dark.svg" alt="" class="w-20 h-20 object-contain" >
                 <p>Bash</p></div>
             </div>
           </div>
          </section>
          <!-- -------------------------------------------Pantalla desktop----------------------------------------------------- -->
-        <section class="hidden md:flex flex-col  mx-4 gap-16 pb-4"   data-aos="flip-up" data-aos-duration="2000" >
+        <section id="tec-desktop" class="hidden md:flex flex-col  mx-4 gap-16 pb-4"   data-aos="flip-up" data-aos-duration="2000" >
           <div id="contenedor-slide" class="slide w-[80%]  flex h-32 m-auto justify-center items-center overflow-hidden whitespace-nowrap ">
             <div id="slider-track" class="slider-track flex justify-center gap-8 ">
-              <div class="w-30 h-30 flex flex-col justify-center items-center border-2 rounded-3xl p-4 hover:scale-105 hover:border-amber-200">
+              <div class="card-lev w-30 h-30 flex flex-col justify-center items-center border-2 rounded-3xl p-4 hover:scale-105 hover:border-amber-200">
                 <img src="./public/logos/html5.svg" alt="" class="w-16 h-16 object-contain">
                 <p class="text-center">HTML</p>
               </div>
-              <div class="w-30 h-30 flex flex-col justify-center items-center border-2 rounded-3xl p-4 hover:scale-105 hover:border-amber-200">
+              <div class="card-lev w-30 h-30 flex flex-col justify-center items-center border-2 rounded-3xl p-4 hover:scale-105 hover:border-amber-200">
                 <img src="./public/logos/css.svg" alt="" class="w-16 h-16 object-contain">
                 <p class="text-center">CSS</p>
               </div>
-              <div class="w-30 h-30 flex flex-col justify-center items-center border-2 rounded-3xl p-4 hover:scale-105 hover:border-amber-200">
+              <div class="card-lev w-30 h-30 flex flex-col justify-center items-center border-2 rounded-3xl p-4 hover:scale-105 hover:border-amber-200">
                 <img src="./public/logos/tailwindcss.svg" alt="" class="w-16 h-16 object-contain">
                 <p class="text-center">Tailwind</p>
               </div>
-              <div class="w-30 h-30 flex flex-col justify-center items-center border-2 rounded-3xl p-4 hover:scale-105 hover:border-amber-200">
+              <div class="card-lev w-30 h-30 flex flex-col justify-center items-center border-2 rounded-3xl p-4 hover:scale-105 hover:border-amber-200">
                 <img src="./public/logos/javascript.svg" alt="" class="w-16 h-16 object-contain">
                 <p class="text-center">JavaScript</p>
               </div>
-              <div class="w-30 h-30 flex flex-col justify-center items-center border-2 rounded-3xl p-4 hover:scale-105 hover:border-amber-200">
+              <div class="card-lev w-30 h-30 flex flex-col justify-center items-center border-2 rounded-3xl p-4 hover:scale-105 hover:border-amber-200">
                 <img src="./public/logos/nodejs.svg" alt="" class="w-16 h-16 object-contain">
                 <p class="text-center">NodeJs</p>
               </div>
-              <div class="w-30 h-30 flex flex-col justify-center items-center border-2 rounded-3xl p-4 hover:scale-105 hover:border-amber-200">
+              <div class="card-lev w-30 h-30 flex flex-col justify-center items-center border-2 rounded-3xl p-4 hover:scale-105 hover:border-amber-200">
                 <img src="./public/logos/bash_dark.svg" alt="" class="w-16 h-16 object-contain">
                 <p class="text-center">Bash</p>
               </div>
-              <div class="w-30 h-30 flex flex-col justify-center items-center border-2 rounded-3xl p-4 hover:scale-105 hover:border-amber-200">
+              <div class="card-lev w-30 h-30 flex flex-col justify-center items-center border-2 rounded-3xl p-4 hover:scale-105 hover:border-amber-200">
                 <img src="./public/logos/git.svg" alt="" class="w-16 h-16 object-contain">
                 <p class="text-center">Git</p>
               </div>
-              <div class="w-30 h-30 flex flex-col justify-center items-center border-2 rounded-3xl p-4 hover:scale-105 hover:border-amber-200">
+              <div class="card-lev w-30 h-30 flex flex-col justify-center items-center border-2 rounded-3xl p-4 hover:scale-105 hover:border-amber-200">
                 <img src="./public/logos/mongodb.svg" alt="" class="w-16 h-16 object-contain">
                 <p class="text-center">MongoDB</p>
               </div>
-              <div class="w-30 h-30 flex flex-col justify-center items-center border-2 rounded-3xl p-4 hover:scale-105 hover:border-amber-200">
+              <div class="card-lev w-30 h-30 flex flex-col justify-center items-center border-2 rounded-3xl p-4 hover:scale-105 hover:border-amber-200">
                 <img src="./public/logos/angular.svg" alt="" class="w-16 h-16 object-contain">
                 <p class="text-center">Angular</p>
               </div>
-              <div class="w-30 h-30 mr-8 flex flex-col justify-center items-center border-2 rounded-3xl p-4  hover:scale-105 hover:border-amber-200">
+              <div class="card-lev w-30 h-30 mr-8 flex flex-col justify-center items-center border-2 rounded-3xl p-4  hover:scale-105 hover:border-amber-200">
                 <img src="./public/logos/React_light_dark/React_dark.svg" alt="" class="w-16 h-16 object-contain">
                 <p class="text-center">React</p>
               </div>
@@ -187,11 +188,19 @@
           </div>
         </section>
 
-        <div class="h-[1200px]"></div>
+        <footer class=" bg-black text-white w-full ">
+              <section class="grid grid-cols-2 grid-rows-1 place-items-center">
+                <p>© 2025  Lucas Javier Fernández.</p>
+                <ul class="flex gap-8 ">
+                  <a href="https://www.linkedin.com/in/lucasjavierfernandez/" target="_blank" class="flex gap-2 items-center justify-center"><i class="fa-brands fa-linkedin text-cyan-500 text-xl"></i>LinkedIN</a>
+                  <a href="https://github.com/Lucasjavierf" target="_blank" class="flex gap-2 items-center justify-center"><i class="fa-brands fa-github text-l"></i>GitHub</a>
+                </ul>
+              </section>
+        </footer>
     </main>
     
     <script type="module" src="/src/main.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
     <script>
       AOS.init();
     </script>
