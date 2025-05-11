@@ -99,3 +99,12 @@ font-family: 'Poppins', sans-serif;
   66%  { transform: translateY(5px); }
   100% { transform: translateY(0); }
 }
+.card-lev2 {
+  animation: levita 3s ease-in-out infinite;
+}
+@keyframes levita {
+  0%   { transform: translateY(0); }
+  33%  { transform: translateY(5px); }
+  66%  { transform: translateY(-5px); }
+  100% { transform: translateY(0); }
+}
