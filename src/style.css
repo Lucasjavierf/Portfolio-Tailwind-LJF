@@ -108,3 +108,14 @@ font-family: 'Poppins', sans-serif;
   66%  { transform: translateY(-5px); }
   100% { transform: translateY(0); }
 }
+
+
+input::placeholder {
+  color: #888; /* o el color que prefieras */
+}
+input{
+  border: 1px solid #C1B8D6;
+  border-radius: .5rem; 
+  padding: .5rem;
+  
+}

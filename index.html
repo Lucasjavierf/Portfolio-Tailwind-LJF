@@ -190,10 +190,12 @@
 
 
         <!-- ----------------------------------------------formulario--------------------------------------------- -->
-<section id="CONTACTO" class="flex justify-center">
-    <section class="border-2 rounded-3xl p-8">
-      <form action="https://formspree.io/f/xyzebdbg" method="POST" class="contactForm flex flex-col">
-        <h4 class="contentTitle text-center">Envíame un mensaje</h4>
+<h2 class="text-center text-3xl mt-12 font-bold hover:text-amber-200">CONTACTO</h2>
+<section id="CONTACTO" class="flex justify-center items-center">
+  <div class="flex justify-center items-center border-2 border-cyan-600 backdrop-blur-3xl bg-white/10 rounded-2xl h-fit w-fit shadow-2xl">
+    <div class=" p-12">
+      <form action="https://formspree.io/f/xyzebdbg" method="POST" class="contactForm flex flex-col gap-2">
+        <h3 class="contentTitle text-center text-2xl font-bold">Trabajemos juntos!! <i class="fa-solid fa-handshake"></i> </h3>
         <div class="formGroup flex flex-col">
           <input type="text" class="formControl" id="contactName" name="name" placeholder="Nombre..." required>
         </div>
@@ -210,14 +212,16 @@
         <div class="formGroup flex flex-col formSubmit">
         <button type="submit" class="btn">Enviar mensaje</button>
         </div>
-</form>
-    </section>
-    <section>
+      </form>
+    </div>
+    
        <div>
-        <img src="./public/imgs/imagen-de-primer-plano-del-programador-trabajando-en-su-escritorio-en-la-oficina.jpg" alt="" class="w-96 h-96 object-contain">
+        <img src="./public/imgs/imagen-de-primer-plano-del-programador-trabajando-en-su-escritorio-en-la-oficina.jpg" alt="" class=" rounded-br-2xl rounded-tr-2xl object-cover">
        </div>
-    </section>
+    
+</div>
 </section>
+
   
 
 
