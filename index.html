@@ -26,10 +26,10 @@
           <div class="side-bar ocultar">
               <ul class="flex flex-col gap-2 ml-2 p-2 ">
                 <a href="#" class="hover:text-amber-200">BIO</a>
-                <a href="#tec-mobile" class="hover:text-amber-200">TECNOLOGIAS</a>
+                <a href="#TECNOLOGIAS" class="hover:text-amber-200">TECNOLOGIAS</a>
                 <a href="#" class="hover:text-amber-200">CERTIFICADOS</a>
                 <a href="#" class="hover:text-amber-200">PROYECTOS</a>
-                <a href="#" class="hover:text-amber-200">CONTACTO</a>
+                <a href="#CONTACTO" class="hover:text-amber-200">CONTACTO</a>
                 <span id="switch" class="cursor-pointer hover:text-amber-200"><i class="fa-solid fa-circle-half-stroke" ></i></span>
               </ul>
           </div>
@@ -45,10 +45,10 @@
             <div class=" flex items-end justify-end gap-16  text-[16px] font-sans ">
               
               <a href="#" class="hover:text-amber-200 ">BIO</a>
-              <a href="#tec-desktop" class="hover:text-amber-200 ">TECNOLOGIAS</a>
+              <a href="#TECNOLOGIAS" class="hover:text-amber-200 ">TECNOLOGIAS</a>
               <a href="#" class="hover:text-amber-200 ">CERTIFICADOS</a>
               <a href="#" class="hover:text-amber-200 ">PROYECTOS</a>
-              <a href="#" class="hover:text-amber-200 ">CONTACTO</a>
+              <a href="#CONTACTO" class="hover:text-amber-200 ">CONTACTO</a>
                 <span id="switch2" class="cursor-pointer hover:text-amber-200 "><i class="fa-solid fa-circle-half-stroke" ></i></span>
               
             </div>
@@ -102,7 +102,7 @@
         </section>
         
         <!---------- ---------------------------------------Tenologias--------------------------------------------------------- -->
-        <h2 class="text-center text-3xl mt-12 font-bold hover:text-amber-200" data-aos="flip-down" data-aos-duration="2000">TECNOLOGIAS / HERRAMIENTAS</h2>
+        <h2 id="TECNOLOGIAS" class="text-center text-3xl mt-12 font-bold hover:text-amber-200" data-aos="fade-up-left" data-aos-duration="2000">TECNOLOGIAS / HERRAMIENTAS</h2>
          <!-- ---------------------------------------------pantalla celular------------------------------------------------------------ -->
          <section id="tec-mobile">
           <div class=" mx-16" data-aos="flip-left" data-aos-duration="2000">
@@ -190,40 +190,49 @@
 
 
         <!-- ----------------------------------------------formulario--------------------------------------------- -->
-<h2 class="text-center text-3xl mt-12 font-bold hover:text-amber-200">CONTACTO</h2>
-<section id="CONTACTO" class="flex justify-center items-center">
-  <div class="flex justify-center items-center border-2 border-cyan-600 backdrop-blur-3xl bg-white/10 rounded-2xl h-fit w-fit shadow-2xl">
-    <div class=" p-12">
-      <form action="https://formspree.io/f/xyzebdbg" method="POST" class="contactForm flex flex-col gap-2">
-        <h3 class="contentTitle text-center text-2xl font-bold">Trabajemos juntos!! <i class="fa-solid fa-handshake"></i> </h3>
-        <div class="formGroup flex flex-col">
-          <input type="text" class="formControl" id="contactName" name="name" placeholder="Nombre..." required>
+<h2 id="CONTACTO" class="text-center text-3xl  font-bold hover:text-amber-200"  data-aos="fade-up-left" data-aos-duration="2000" >CONTACTO</h2>
+<section  class="flex justify-center items-center mx-30"  data-aos="fade-left" data-aos-duration="2000"  >
+  <div class=" flex justify-center items-center border-2 iluminar  hover:border-amber-200 backdrop-blur-3xl bg-white/10  h-fit w-fit shadow-2xl">
+    <div class=" p-16 h-[500px]  " data-aos="zoom-in" data-aos-duration="2000">
+      <form action="https://formspree.io/f/xyzebdbg" method="POST" class="contactForm flex flex-col  gap-8">
+        <h2 class="contentTitle text-center text-2xl font-bold">Trabajemos juntos!! <i class="fa-solid fa-handshake"></i> </h2>
+        <div class="formGroup relative  flex flex-col border-b-2">
+          <input type="text" class="formControl  ml-8 outline-none" id="contactName" name="name" placeholder="Nombre:" required>
+          <span class="absolute left-1 top-1/2 -translate-y-1/2  pointer-events-none">
+            <i class="fa-solid fa-user"></i>
+          </span> 
+        </div>
+        <div class="formGroup relative  flex flex-col border-b-2">
+          <input type="email" class="formControl  ml-8 outline-none" id="contactEmail" name="email" placeholder="Correo electrónico:" required>
+          <span class="absolute left-1 top-1/2 -translate-y-1/2  pointer-events-none">
+            <i class="fa-solid fa-envelope"></i>
+          </span>
+        </div>
+        <div class="formGroup relative  flex flex-col border-b-2">
+          <input type="text" class="formControl  ml-8 outline-none" id="contactSubject" name="subject" placeholder="Asunto:" required>
+          <span class="absolute left-1 top-1/2 -translate-y-1/2  pointer-events-none">
+            <i class="fa-solid fa-briefcase"></i>
+          </span>
         </div>
         <div class="formGroup flex flex-col">
-          <input type="email" class="formControl" id="contactEmail" name="email" placeholder="Correo electrónico..." required>
-        </div>
-        <div class="formGroup flex flex-col">
-          <input type="text" class="formControl" id="contactSubject" name="subject" placeholder="Asunto..." required>
-        </div>
-        <div class="formGroup flex flex-col">
-          <textarea class="formControl" name="message" id="contactMessage" rows="5" placeholder="Ingrese su Mensaje..." required></textarea>
+          <textarea class="formControl border-b-2 " name="message" id="contactMessage" rows="5" placeholder="Ingrese aqui su Mensaje..." required></textarea>
         </div>
 
-        <div class="formGroup flex flex-col formSubmit">
-        <button type="submit" class="btn">Enviar mensaje</button>
+        <div class="formGroup flex flex-col justify-center items-center  formSubmit">
+        <button type="submit" class=" rounded-xl  w-[50%] bg-black text-white font-bold hover:text-amber-200 hover:border-amber-200 btn-form ">Enviar  <i class="fa-solid fa-paper-plane"></i> </button>
         </div>
       </form>
-    </div>
+    </div >
     
-       <div>
-        <img src="./public/imgs/imagen-de-primer-plano-del-programador-trabajando-en-su-escritorio-en-la-oficina.jpg" alt="" class=" rounded-br-2xl rounded-tr-2xl object-cover">
+       <div class="hidden  md:block h-[500px]"  >
+        <img src="./public/imgs/imagen-de-primer-plano-del-programador-trabajando-en-su-escritorio-en-la-oficina.jpg" alt="" class="w-99 h-full object-cover">
        </div>
     
-</div>
-</section>
+  </div>
+  </section>
 
   
-
+    
 
         <footer class=" bg-black text-white w-full ">
               <section class="grid grid-cols-2 grid-rows-1 place-items-center">
@@ -234,7 +243,7 @@
                 </ul>
               </section>
         </footer>
-    </main>
+</main>
     
     <script type="module" src="/src/main.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 

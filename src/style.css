@@ -109,13 +109,16 @@ font-family: 'Poppins', sans-serif;
   100% { transform: translateY(0); }
 }
 
+/* -----------------------form---------------------------- */
 
-input::placeholder {
-  color: #888; /* o el color que prefieras */
-}
-input{
-  border: 1px solid #C1B8D6;
-  border-radius: .5rem; 
-  padding: .5rem;
+input::placeholder, textarea::placeholder {
+  color: #777676; /* o el color que prefieras */
   
+}
+
+:hover.card-lev, :hover.card-lev2, :hover.btn-form,  :hover.iluminar{
+  box-shadow: 0 0 15px rgba(255,255,255, 0.5),
+  0 0 30px rgba(255,255,255, 0.3),
+  0 0 50px rgba(255,255,255, 0.2);
+
 }
