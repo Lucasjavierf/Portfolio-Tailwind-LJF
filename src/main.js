@@ -4,7 +4,8 @@ const btnMenu = document.querySelector('.burger')
 const menuDesplegable = document.querySelector('.side-bar')
 
 btnMenu.addEventListener('click', () => {
-    menuDesplegable.classList.toggle('ocultar') 
+    menuDesplegable.classList.toggle('ocultar','visible') 
+    
 })
 
 
