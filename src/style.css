@@ -57,6 +57,9 @@ font-family: 'Poppins', sans-serif;
 }
 
 /* --------------------modo oscuro----------------------- */
+body{
+  background-image: linear-gradient(to right, #164096, #0c3995, #043194, #002993, #012091, #011c89, #011981, #001579, #001668, #001558, #001347, #020f36);
+}
 .dark{
   color: black;
   background: #C1B8D6;

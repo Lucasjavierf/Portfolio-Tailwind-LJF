@@ -1,399 +1,521 @@
-a<!doctype html>
+a
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./public/imgs/LogoLJF.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./src/style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <title>Lucas Fernandez!</title>
-  </head>
-  <body class="bg-gradient-to-b from-[#2b2e47] to-[#44476b] text-[#f8f8fe]">
-    <header>
-      <nav>
-        <!-- --------------------------------------Menu desplegable---------------------------------------------------------- -->
-        <section id="Menu-desplegable" class="shadow-2xl fixed top-0 w-full backdrop-blur-3xl bg-white/10 rounded-b-xl flex flex-col z-50 md:hidden">
-          <div  class="flex items-center justify-between p-2 ">
-            <span class="ml-2">
-              <i class="fa-solid fa-bars burger cursor-pointer hover:text-amber-200"></i>
-            </span>
-            <div>
-              <img src="./public/imgs/LogoLJF.svg" alt="" id="logo" class="w-8 h-8 object-contain mr-2">
-            </div>
-          </div>
-          <div class="side-bar ocultar">
-              <ul class="flex flex-col gap-2 ml-2 p-2 ">
-                <a href="#" class="hover:text-amber-200">BIO</a>
-                <a href="#TECNOLOGIAS" class="hover:text-amber-200">TECNOLOGIAS</a>
-                <a href="#CERTIFICADOS" class="hover:text-amber-200">CERTIFICADOS</a>
-                <a href="#PROYECTOS" class="hover:text-amber-200">PROYECTOS</a>
-                <a href="#CONTACTO" class="hover:text-amber-200">CONTACTO</a>
-                <span id="switch" class="cursor-pointer hover:text-amber-200"><i class="fa-solid fa-circle-half-stroke" ></i></span>
-              </ul>
-          </div>
-        </section>
 
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="./public/imgs/LogoLJF.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./src/style.css">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <title>Lucas Fernandez!</title>
+</head>
 
-        <!-- ------------------------------------Menu desktop----------------------------------------------------- -->
-        <section id="Menu-desktop" class="hidden  md:block backdrop-blur-3xl bg-white/10  fixed top-0 w-full h-16 content-center shadow-2xl z-50" >
-          <div class="flex items-center justify-evenly " >
-            <div>
-              <img src="./public/imgs/LogoLJF.svg" alt="" id="logo" class="  w-8 h-8 object-contain   ">
-            </div>
-            <div class=" flex items-end justify-end gap-16  text-[16px] font-sans ">
-              
-              <a href="#" class="hover:text-amber-200 ">BIO</a>
-              <a href="#TECNOLOGIAS" class="hover:text-amber-200 ">TECNOLOGIAS</a>
-              <a href="#CERTIFICADOS" class="hover:text-amber-200 ">CERTIFICADOS</a>
-              <a href="#PROYECTOS" class="hover:text-amber-200 ">PROYECTOS</a>
-              <a href="#CONTACTO" class="hover:text-amber-200 ">CONTACTO</a>
-                <span id="switch2" class="cursor-pointer hover:text-amber-200 "><i class="fa-solid fa-circle-half-stroke" ></i></span>
-              
-            </div>
-          </div>
-        </section>
-  
-      </nav>
-    </header>
-    <main class="flex flex-col gap-20">
-      <!-- ------------------------------BIO  /  inicio------------------------------ -->
-        <section class="mt-32 flex flex-col justify-center  md:flex-row-reverse gap-16 pb-8 mx-4 backdrop-blur-2xl md:border-b-2 md:border-x-2 rounded-3xl md:shadow-2xl md:mt-38" data-aos="fade-right" data-aos-anchor-placement="top-bottom  data-aos=" data-aos-duration="2000">
-          <div class="flex items-center justify-center">
-            <img src="./public/imgs/unnamed-removebg.png" alt="" id="img-perfil" class=" transition-transform duration-300 ease-linear hover:scale-105" >
-          </div>
-          <div class="flex flex-col items-center justify-center mt-12 text-center">
-              <h1 class="text-6xl  font-bold hover:text-amber-200 transition-all">LUCAS JAVIER FERNANDEZ</h1>
-              <div class="flex flex-col gap-4 text-3xl lg:flex-row ">
-                <h2 class="hover:text-amber-200 transition-all">FULLSTACK DEVELOPER</h2>
-                <div class="text-[color:gold] " >
-                  <a href="https://www.linkedin.com/in/lucasjavierfernandez/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                  <a href="https://github.com/Lucasjavierf" target="_blank"><i class="fa-brands fa-github"></i></a>
-                  <a href="mailto:lucasjavierf10@gmail.com" target="_blank" ><i class="fa-solid fa-envelope"></i></a>
-                </div>
-              </div>
-              
-          </div>
-        </section>
-
-        <h2></h2>
-        <!-- -----------------------------BIO / Sobre Mi----------------------------------------- -->
-         
-        <section id="abautMe" class="flex flex-col pb-2 gap-14 md:mt-12  md:border-x-2 rounded-2xl mx-4 shadow-2xl" data-aos="fade-up-left" data-aos-duration="2000">
-
-          <div class="flex flex-col justify-center mx-20 gap-8 " >
-            <h2 class="text-3xl text-center font-bold hover:text-amber-200">SOBRE MI.</h2>
-            <div class="md:flex gap-6 ">
-              <img src="./public/imgs/freepik-developer.jpg" alt="" class="hidden md:block w-104 h-70 object-cover rounded-3xl" data-aos="fade-right" data-aos-duration="2000">
-              <p  class="text-center items-center text-[1.1rem] md:flex justify-center " data-aos="fade-left" data-aos-duration="2000">
-                Soy estudiante de Sistemas y desarrollador full stack con conocimientos en programación web. 
-                Estoy en constante aprendizaje para profundizar en nuevas tecnologías y seguir creciendo en el sector IT.
-                Busco oportunidades en donde pueda aplicar mis habilidades, enfrentar nuevos desafíos y contribuir al crecimiento de un equipo. 
-                Me caracterizo por mi compromiso, mi capacidad de adaptación y mi habilidad para aprender rápidamente.
-              </p>
-            </div>
-            
-          </div>
-
-          <div class="flex flex-col gap-4 ">
-            <h3 class="text-3xl font-bold text-center hover:text-amber-200">CURRICULUM VITAE</h3>
-            <div class="text-center text-6xl hover:text-amber-200">
-            <a  href="https://drive.google.com/file/d/1JbdWqpl8pYZERen755p3L872dbjG95hb/view?usp=sharing" target="_blank"><i class="fa-solid fa-download"></i></a>
-          </div>
-        </section>
-        
-        <!---------- ---------------------------------------Tenologias--------------------------------------------------------- -->
-        <h2 id="TECNOLOGIAS" class="text-center text-3xl  font-bold hover:text-amber-200" data-aos="fade-up-right" data-aos-duration="2000">TECNOLOGIAS / HERRAMIENTAS</h2>
-         <!-- ---------------------------------------------pantalla celular------------------------------------------------------------ -->
-         <section id="tec-mobile">
-          <div class=" mx-16" data-aos="flip-left" data-aos-duration="2000">
-            <div class="grid grid-cols-2 grid-rows-5  place-items-center gap-4 md:hidden ">
-              <div class=" card-lev shadow-2xl flex flex-col justify-center items-center gap-2 border-2 hover:border-amber-200 rounded-3xl h-fit w-fit p-4">
-                <img src="./public/imgs/HTML5_svg.png" alt="" class="w-20 h-20 object-contain" >
-                <p>HTML</p></div>
-              <div class="card-lev2 shadow-2xl flex flex-col justify-center items-center gap-2 border-2 hover:border-amber-200 rounded-3xl h-fit w-fit p-4">
-                <img src="./public/logos/css.svg" alt="" class="w-20 h-20 object-contain" >
-                <p>CSS</p></div>
-              <div class="card-lev2 shadow-2xl flex flex-col justify-center items-center gap-2 border-2 hover:border-amber-200 rounded-3xl h-fit w-fit p-4">
-                <img src="./public/logos/javascript.svg" alt="" class="w-20 h-20 object-contain" >
-                <p>JavaScript</p></div>
-              <div class="card-lev  shadow-2xlflex flex-col justify-center items-center gap-2 border-2 hover:border-amber-200 rounded-3xl h-fit w-fit p-4">
-                <img src="./public/logos/tailwindcss.svg" alt="" class="w-20 h-20 object-contain" >
-                <p>Tailwind</p></div>
-              <div class="card-lev shadow-2xl flex flex-col justify-center items-center gap-2 border-2 hover:border-amber-200 rounded-3xl h-fit w-fit p-4">
-                <img src="./public/logos/React_light_dark/React_dark.svg" alt="" class="w-20 h-20 object-contain" >
-                <p>React</p></div>
-              <div class="card-lev2 shadow-2xl flex flex-col justify-center items-center gap-2 border-2 hover:border-amber-200 rounded-3xl h-fit w-fit p-4">
-                <img src="./public/logos/angular.svg" alt="" class="w-20 h-20 object-contain" >
-                <p>Angular </p></div>
-              <div class="card-lev2 shadow-2xl flex flex-col justify-center items-center gap-2 border-2 hover:border-amber-200 rounded-3xl h-fit w-fit p-4">
-                <img src="./public/logos/nodejs.svg" alt="" class="w-20 h-20 object-contain ">
-                <p>NodeJs</p></div>
-              <div class="card-lev  shadow-2xlflex flex-col justify-center items-center gap-2 border-2 hover:border-amber-200 rounded-3xl h-fit w-fit p-4">
-                <img src="./public/logos/mongodb.svg" alt="" class="w-20 h-20 object-contain" >
-                <p>MongoDB</p></div>
-              <div class="card-lev shadow-2xl flex flex-col justify-center items-center gap-2 border-2 hover:border-amber-200 rounded-3xl h-fit w-fit p-4">
-                <img src="./public/logos/git.svg" alt="" class="w-20 h-20 object-contain" >
-                <p>Git</p></div>
-              <div class="card-lev2 shadow-2xl flex flex-col justify-center items-center gap-2 border-2 hover:border-amber-200 rounded-3xl h-fit w-fit p-4">
-                <img src="./public/logos/bash_dark.svg" alt="" class="w-20 h-20 object-contain" >
-                <p>Bash</p></div>
-            </div>
-          </div>
-         </section>
-         <!-- -------------------------------------------Pantalla desktop----------------------------------------------------- -->
-        <section id="tec-desktop" class="hidden md:flex flex-col  mx-4 gap-16 "   data-aos="flip-up" data-aos-duration="2000" >
-          <div id="contenedor-slide" class="slide w-[80%] border-x-2 rounded-3xl  flex h-34 m-auto justify-center items-center overflow-hidden whitespace-nowrap ">
-            <div id="slider-track" class="slider-track flex justify-center gap-8 ">
-              <div class="card-lev shadow-2xl w-30 h-30 flex flex-col justify-center items-center border-2 rounded-3xl p-4 hover:scale-105 hover:border-amber-200">
-                <img src="./public/logos/html5.svg" alt="" class="w-16 h-16 object-contain">
-                <p class="text-center">HTML</p>
-              </div>
-              <div class="card-lev2 shadow-2xl w-30 h-30 flex flex-col justify-center items-center border-2 rounded-3xl p-4 hover:scale-105 hover:border-amber-200">
-                <img src="./public/logos/css.svg" alt="" class="w-16 h-16 object-contain">
-                <p class="text-center">CSS</p>
-              </div>
-              <div class="card-lev shadow-2xl w-30 h-30 flex flex-col justify-center items-center border-2 rounded-3xl p-4 hover:scale-105 hover:border-amber-200">
-                <img src="./public/logos/tailwindcss.svg" alt="" class="w-16 h-16 object-contain">
-                <p class="text-center">Tailwind</p>
-              </div>
-              <div class="card-lev2 shadow-2xl w-30 h-30 flex flex-col justify-center items-center border-2 rounded-3xl p-4 hover:scale-105 hover:border-amber-200">
-                <img src="./public/logos/javascript.svg" alt="" class="w-16 h-16 object-contain">
-                <p class="text-center">JavaScript</p>
-              </div>
-              <div class="card-lev shadow-2xl w-30 h-30 flex flex-col justify-center items-center border-2 rounded-3xl p-4 hover:scale-105 hover:border-amber-200">
-                <img src="./public/logos/nodejs.svg" alt="" class="w-16 h-16 object-contain">
-                <p class="text-center">NodeJs</p>
-              </div>
-              <div class="card-lev2 shadow-2xl w-30 h-30 flex flex-col justify-center items-center border-2 rounded-3xl p-4 hover:scale-105 hover:border-amber-200">
-                <img src="./public/logos/bash_dark.svg" alt="" class="w-16 h-16 object-contain">
-                <p class="text-center">Bash</p>
-              </div>
-              <div class="card-lev shadow-2xl w-30 h-30 flex flex-col justify-center items-center border-2 rounded-3xl p-4 hover:scale-105 hover:border-amber-200">
-                <img src="./public/logos/git.svg" alt="" class="w-16 h-16 object-contain">
-                <p class="text-center">Git</p>
-              </div>
-              <div class="card-lev2 shadow-2xl w-30 h-30 flex flex-col justify-center items-center border-2 rounded-3xl p-4 hover:scale-105 hover:border-amber-200">
-                <img src="./public/logos/mongodb.svg" alt="" class="w-16 h-16 object-contain">
-                <p class="text-center">MongoDB</p>
-              </div>
-              <div class="card-lev shadow-2xl w-30 h-30 flex flex-col justify-center items-center border-2 rounded-3xl p-4 hover:scale-105 hover:border-amber-200">
-                <img src="./public/logos/angular.svg" alt="" class="w-16 h-16 object-contain">
-                <p class="text-center">Angular</p>
-              </div>
-              <div class="card-lev2 shadow-2xl w-30 h-30 mr-8 flex flex-col justify-center items-center border-2 rounded-3xl p-4  hover:scale-105 hover:border-amber-200">
-                <img src="./public/logos/React_light_dark/React_dark.svg" alt="" class="w-16 h-16 object-contain">
-                <p class="text-center">React</p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-
-
-
-  <!-- -------------------------------------------------------PROYECTOS--------------------------------------------------------- -->
-   <h2 id="PROYECTOS" class="text-center text-3xl  font-bold hover:text-amber-200"  data-aos="fade-up-right" data-aos-duration="2000" >PROYECTOS</h2> 
-
-   <section class="flex m-auto">
-     <div class="flex flex-col gap-16 md:flex-row">
-        <div class="iluminar hover:border-amber-200 hover:border-2 shadow-2xl flex flex-col items-center mx-4 overflow-hidden w-[400] h-[500px] text-center backdrop-blur-3xl bg-white/10 rounded-xl p-6 gap-4" data-aos="zoom-in">
-        <div class="flex w-full h-[400px] shadow-2xl  rounded-2xl overflow-hidden">
-          <img src="./public/Proyectos_imgs/rumbox1.jpeg" alt="" class="GalProyects">
-          <img src="./public/Proyectos_imgs/rumbox2.jpeg" alt="" class="GalProyects">
-          <img src="./public/Proyectos_imgs/rumbox3.jpeg" alt="" class="GalProyects">
-        </div>
-        <h4 class="font-bold text-3xl">RumBox.</h4>
-        <p class="text-xl"> Proyecto en desarrollo realizado en equipo dentro de la Fundación Pescar. Se trata de una plataforma e-commerce orientada a la venta de productos para viajeros, con el objetivo de ofrecer soluciones prácticas y accesibles para quienes están en constante movimiento.</p>
-         <a  class="text-l rounded-xl  w-[60%] p-2 backdrop-blur-3xl bg-white/10 cursor-pointer iluminar" href="https://practica-tailwind-rumbox.netlify.app/" target="_blank">
-          Ver Web <i class="fa-solid fa-laptop-code"></i>
-        </a>
-      </div>
-
-       <div class="iluminar hover:border-amber-200 hover:border-2 shadow-2xl flex flex-col items-center mx-4 overflow-hidden w-[400] h-[500px] text-center backdrop-blur-3xl bg-white/10 rounded-xl p-6 gap-4" data-aos="zoom-in">
-        <div class="flex w-full h-[400px] shadow-2xl  rounded-2xl overflow-hidden">
-          <img src="./public/Proyectos_imgs/utn1.jpeg" alt="" class="GalProyects">
-          <img src="./public/Proyectos_imgs/utn2.jpeg" alt="" class="GalProyects">
-          <img src="./public/Proyectos_imgs/utn4.jpeg" alt="" class="GalProyects">
-        </div>
-        <h4 class="font-bold text-3xl">Smart-Shop.</h4>
-        <p class="text-xl"> Primer proyecto realizado durante una cursada en la UTN. Se trata de una página web estática estilo e-commerce, diseñada para simular la venta de productos tecnológicos.</p>
-         <a  class="text-l rounded-xl mt-14 w-[60%] p-2 backdrop-blur-3xl bg-white/10 cursor-pointer iluminar" href="https://github.com/Lucasjavierf/ProjectoUTN-Smart-Shop." target="_blank">
-          Ver codigo GIT <i class="fa-solid fa-laptop-code"></i>
-        </a>
-      </div>
-     </div>
-   </section>
-
-
-   <!-- -----------------------------------------------------Certificados---------------------------------------------- -->
- <h2 id="CERTIFICADOS" class="text-center text-3xl  font-bold hover:text-amber-200"  data-aos="fade-up-left" data-aos-duration="2000" >CERTIFICADOS</h2> 
- <!-- -----------------------------------------------certificaciones mobile------------------------------------------------------ -->
- <section class="flex  md:hidden">
-  <div class=" mx-auto " data-aos="flip-left" data-aos-duration="2000">
-      <div class="grid grid-cols-2 grid-rows-3  w-full gap-8">
-        <div class="iluminar hover:border-amber-200  hover:border-2 shadow-2xl flex flex-col items-center w-[200px] h-[260px] text-center backdrop-blur-3xl bg-white/10 rounded-xl p-6 gap-4">
-        <img src="./public/Certificados Programacion/int-proEducacionIT.webp" alt="" class="">
-        <h4 class="font-bold">Introduccion a la programacion.</h4>
-         <a  class="text-xs rounded-xl  w-full p-2 backdrop-blur-3xl bg-white/10 cursor-pointer iluminar" href="https://www.educacionit.com/perfil/lucas-javier-fernandez-652297/certificado/54677?_gl" target="_blank">
-          Ver Certificado <i class="fa-solid fa-medal"></i>
-        </a>
-      </div>
-      <div class="iluminar hover:border-amber-200 hover:border-2 shadow-2xl flex flex-col items-center w-[200px] h-[260px] text-center backdrop-blur-3xl bg-white/10 rounded-xl p-6 gap-4">
-        <img src="./public/Certificados Programacion/HTML-EducacionIT.webp" alt="" class="">
-        <h4 class="font-bold">Desarrollo Web con HTML.</h4>
-         <a  class="text-xs rounded-xl  w-full p-2 backdrop-blur-3xl bg-white/10 cursor-pointer iluminar" href="https://www.educacionit.com/perfil/lucas-javier-fernandez-652297/certificado/80151?_gl=1*o6f2vv*_ga*OTYwOTA4ODcwLjE3NDY3NTk1OTY.*_ga_R8GR8LL2B8*czE3NDcwOTE3MzYkbzMkZzAkdDE3NDcwOTE3MzYkajYwJGwxJGgyMDQ5NDY2OTU1" target="_blank">
-          Ver Certificado <i class="fa-solid fa-medal"></i>
-        </a>
-      </div>
-     <div class="iluminar hover:border-amber-200 hover:border-2 shadow-2xl flex flex-col items-center w-[200px] h-[260px] text-center backdrop-blur-3xl bg-white/10 rounded-xl p-6 gap-4">
-        <img src="./public/Certificados Programacion/JavaScript-EducacionIT.webp" alt="" class="">
-        <h4 class="font-bold">Javascript desde cero</h4>
-        <a  class="text-xs rounded-xl  w-full p-2 backdrop-blur-3xl bg-white/10 cursor-pointer  iluminar shadow-2xl " href="https://www.educacionit.com/perfil/lucas-javier-fernandez-652297/certificado/80152?_gl=1*1a4i306*_ga*OTYwOTA4ODcwLjE3NDY3NTk1OTY.*_ga_R8GR8LL2B8*czE3NDcxMDIzNDckbzQkZzEkdDE3NDcxMDI3ODYkajU2JGwxJGgyMDYxMjQzMzA1" target="_blank">
-          Ver Certificado <i class="fa-solid fa-medal"></i>
-        </a>
-      </div>
-      <div class="iluminar hover:border-amber-200 hover:border-2 shadow-2xl flex flex-col items-center w-[200px] h-[260px] text-center backdrop-blur-3xl bg-white/10 rounded-xl p-6 gap-4">
-        <img src="./public/Certificados Programacion/Certificado-Maquetador-Web-Avanzado-EducaciónIT.png" alt="" class="">
-        <h4 class="font-bold">Maqueteador Web Avanzado</h4>
-        <a  class="text-xs rounded-xl  w-full p-2 backdrop-blur-3xl bg-white/10 cursor-pointer  iluminar shadow-2xl " href="https://www.educacionit.com/perfil/lucas-javier-fernandez-652297/certificado/80154?_gl=1*2cale3*_ga*OTYwOTA4ODcwLjE3NDY3NTk1OTY.*_ga_R8GR8LL2B8*czE3NDcxMDIzNDckbzQkZzEkdDE3NDcxMDI4NzEkajUxJGwxJGgyMDYxMjQzMzA1" target="_blank">
-          Ver Certificado <i class="fa-solid fa-medal"></i>
-        </a>
-      </div>
-      <div class="iluminar hover:border-amber-200 hover:border-2 shadow-2xl flex flex-col items-center w-[200px] h-[260px] text-center backdrop-blur-3xl bg-white/10 rounded-xl p-6 gap-4">
-        <img src="./public/Certificados Programacion/Certificado-Programación-orientada-a-objetos-con-IA-EducaciónIT.png" alt="" class="">
-        <h4 class="font-bold">Programacion orientada a objetos </h4>
-         <a  class="text-xs rounded-xl  w-full p-2 backdrop-blur-3xl bg-white/10 cursor-pointer iluminar" href="https://www.educacionit.com/perfil/lucas-javier-fernandez-652297/certificado/80153?_gl=1*u3tt38*_ga*OTYwOTA4ODcwLjE3NDY3NTk1OTY.*_ga_R8GR8LL2B8*czE3NDcxMDIzNDckbzQkZzEkdDE3NDcxMDQxMDEkajUwJGwxJGgyMDYxMjQzMzA1" target="_blank">
-          Ver Certificado <i class="fa-solid fa-medal"></i>
-        </a>
-      </div>
-      <div class="iluminar hover:border-amber-200 hover:border-2 shadow-2xl flex flex-col items-center w-[200px] h-[260px] text-center backdrop-blur-3xl bg-white/10 rounded-xl p-6 gap-4">
-        <img src="./public/Certificados Programacion/Certificado-Git_-Desarrollo-Colaborativo-EducaciónIT.png" alt="" class="">
-        <h4 class="font-bold">GIT: Desarrollo colaborativo.</h4>
-         <a  class="text-xs rounded-xl  w-full p-2 backdrop-blur-3xl bg-white/10 cursor-pointer iluminar" href="https://www.educacionit.com/perfil/lucas-javier-fernandez-652297/certificado/80155?_gl=1*b4meyy*_ga*OTYwOTA4ODcwLjE3NDY3NTk1OTY.*_ga_R8GR8LL2B8*czE3NDcxMDIzNDckbzQkZzEkdDE3NDcxMDQxNjIkajU2JGwxJGgyMDYxMjQzMzA1" target="_blank">
-          Ver Certificado <i class="fa-solid fa-medal"></i>
-        </a>
-      </div>
-      </div>
-  </div>
- </section>
- <!-- certificaciones desktop------------------------------------------------------------------------------------------- -->
-  <section class="hidden md:flex flex-col gap-16 mx-16 overflow-hidden min-w-9/12 ">
-    <div class="mx-auto w-full flex gap-x-16" data-aos="fade-right" data-aos-duration="1000">
-      <div class="iluminar hover:border-amber-200 hover:border-2 shadow-2xl flex flex-col items-center w-full h-[400px] text-center backdrop-blur-3xl bg-white/10 rounded-xl p-6 gap-4">
-        <img src="./public/Certificados Programacion/int-proEducacionIT.webp" alt="" class="">
-        <h4 class="font-bold">Introduccion a la programacion.</h4>
-         <a  class="text-xs rounded-xl  w-[60%] p-2 backdrop-blur-3xl bg-white/10 cursor-pointer iluminar" href="https://www.educacionit.com/perfil/lucas-javier-fernandez-652297/certificado/54677?_gl" target="_blank">
-          Ver Certificado <i class="fa-solid fa-medal"></i>
-        </a>
-      </div>
-      <div class="iluminar hover:border-amber-200 hover:border-2 shadow-2xl flex flex-col items-center w-full h-[400px] text-center backdrop-blur-3xl bg-white/10 rounded-xl p-6 gap-4">
-        <img src="./public/Certificados Programacion/HTML-EducacionIT.webp" alt="" class="">
-        <h4 class="font-bold">Desarrollo Web con HTML y CSS.</h4>
-         <a  class="text-xs rounded-xl  w-[60%] p-2 backdrop-blur-3xl bg-white/10 cursor-pointer iluminar" href="https://www.educacionit.com/perfil/lucas-javier-fernandez-652297/certificado/80151?_gl=1*o6f2vv*_ga*OTYwOTA4ODcwLjE3NDY3NTk1OTY.*_ga_R8GR8LL2B8*czE3NDcwOTE3MzYkbzMkZzAkdDE3NDcwOTE3MzYkajYwJGwxJGgyMDQ5NDY2OTU1" target="_blank">
-          Ver Certificado <i class="fa-solid fa-medal"></i>
-        </a>
-      </div>
-     <div class="iluminar hover:border-amber-200 hover:border-2 shadow-2xl flex flex-col items-center w-full h-[400px] text-center backdrop-blur-3xl bg-white/10 rounded-xl p-6 gap-4">
-        <img src="./public/Certificados Programacion/JavaScript-EducacionIT.webp" alt="" class="">
-        <h4 class="font-bold">Desarrollo Javascript desde cero</h4>
-        <a  class="text-xs rounded-xl  w-[60%] p-2 backdrop-blur-3xl bg-white/10 cursor-pointer  iluminar shadow-2xl " href="https://www.educacionit.com/perfil/lucas-javier-fernandez-652297/certificado/80152?_gl=1*1a4i306*_ga*OTYwOTA4ODcwLjE3NDY3NTk1OTY.*_ga_R8GR8LL2B8*czE3NDcxMDIzNDckbzQkZzEkdDE3NDcxMDI3ODYkajU2JGwxJGgyMDYxMjQzMzA1" target="_blank">
-          Ver Certificado <i class="fa-solid fa-medal"></i>
-        </a>
-      </div>
-      
-    </div>
-
-    <div class="mx-auto w-full flex gap-x-16" data-aos="fade-left" data-aos-duration="1000">
-      <div class="iluminar hover:border-amber-200 hover:border-2 shadow-2xl flex flex-col items-center w-full h-[400px] text-center backdrop-blur-3xl bg-white/10 rounded-xl p-6 gap-4">
-        <img src="./public/Certificados Programacion/Certificado-Maquetador-Web-Avanzado-EducaciónIT.png" alt="" class="">
-        <h4 class="font-bold">Maqueteador Web Avanzado</h4>
-        <a  class="text-xs rounded-xl  w-[60%] p-2 backdrop-blur-3xl bg-white/10 cursor-pointer  iluminar shadow-2xl " href="https://www.educacionit.com/perfil/lucas-javier-fernandez-652297/certificado/80154?_gl=1*2cale3*_ga*OTYwOTA4ODcwLjE3NDY3NTk1OTY.*_ga_R8GR8LL2B8*czE3NDcxMDIzNDckbzQkZzEkdDE3NDcxMDI4NzEkajUxJGwxJGgyMDYxMjQzMzA1" target="_blank">
-          Ver Certificado <i class="fa-solid fa-medal"></i>
-        </a>
-      </div>
-      <div class="iluminar hover:border-amber-200 hover:border-2 shadow-2xl flex flex-col items-center w-full h-[400px] text-center backdrop-blur-3xl bg-white/10 rounded-xl p-6 gap-4">
-        <img src="./public/Certificados Programacion/Certificado-Programación-orientada-a-objetos-con-IA-EducaciónIT.png" alt="" class="">
-        <h4 class="font-bold">Programacion orientada a objetos </h4>
-         <a  class="text-xs rounded-xl  w-[60%] p-2 backdrop-blur-3xl bg-white/10 cursor-pointer iluminar" href="https://www.educacionit.com/perfil/lucas-javier-fernandez-652297/certificado/80153?_gl=1*u3tt38*_ga*OTYwOTA4ODcwLjE3NDY3NTk1OTY.*_ga_R8GR8LL2B8*czE3NDcxMDIzNDckbzQkZzEkdDE3NDcxMDQxMDEkajUwJGwxJGgyMDYxMjQzMzA1" target="_blank">
-          Ver Certificado <i class="fa-solid fa-medal"></i>
-        </a>
-      </div>
-      <div class="iluminar hover:border-amber-200 hover:border-2 shadow-2xl flex flex-col items-center w-full h-[400px] text-center backdrop-blur-3xl bg-white/10 rounded-xl p-6 gap-4">
-        <img src="./public/Certificados Programacion/Certificado-Git_-Desarrollo-Colaborativo-EducaciónIT.png" alt="" class="">
-        <h4 class="font-bold">GIT: Desarrollo colaborativo.</h4>
-         <a  class="text-xs rounded-xl  w-[60%] p-2 backdrop-blur-3xl bg-white/10 cursor-pointer iluminar" href="https://www.educacionit.com/perfil/lucas-javier-fernandez-652297/certificado/80155?_gl=1*b4meyy*_ga*OTYwOTA4ODcwLjE3NDY3NTk1OTY.*_ga_R8GR8LL2B8*czE3NDcxMDIzNDckbzQkZzEkdDE3NDcxMDQxNjIkajU2JGwxJGgyMDYxMjQzMzA1" target="_blank">
-          Ver Certificado <i class="fa-solid fa-medal"></i>
-        </a>
-      </div>
-     
-    </div>
-  </section>
-
-
-
-
-        <!-- ----------------------------------------------formulario--------------------------------------------- -->
-<h2 id="CONTACTO" class="text-center text-3xl  font-bold hover:text-amber-200"  data-aos="fade-up-left" data-aos-duration="2000" >CONTACTO</h2>
-<section  class="flex justify-center items-center mx-30 "  data-aos="fade-left" data-aos-duration="2000"  >
-  <div class=" flex justify-center items-center border-2 iluminar  hover:border-amber-200 backdrop-blur-3xl bg-white/10  h-fit w-fit shadow-2xl">
-    <div class=" p-16 h-[520px]  " data-aos="zoom-in" data-aos-duration="2000">
-      <form action="https://formspree.io/f/xyzebdbg" method="POST" class="contactForm flex flex-col  gap-8">
-        <h2 class="contentTitle text-center text-2xl font-bold">Trabajemos juntos!! <i class="fa-solid fa-handshake"></i> </h2>
-        <div class="formGroup relative  flex flex-col border-b-2">
-          <input type="text" class="formControl  ml-8 outline-none" id="contactName" name="name" placeholder="Nombre:" required>
-          <span class="absolute left-1 top-1/2 -translate-y-1/2  pointer-events-none">
-            <i class="fa-solid fa-user"></i>
-          </span> 
-        </div>
-        <div class="formGroup relative  flex flex-col border-b-2">
-          <input type="email" class="formControl  ml-8 outline-none" id="contactEmail" name="email" placeholder="Correo electrónico:" required>
-          <span class="absolute left-1 top-1/2 -translate-y-1/2  pointer-events-none">
-            <i class="fa-solid fa-envelope"></i>
+<body class="text-[#f8f8fe]">
+  <header>
+    <nav>
+      <!-- --------------------------------------Menu desplegable---------------------------------------------------------- -->
+      <section id="Menu-desplegable"
+        class="shadow-2xl fixed top-0 w-full backdrop-blur-3xl bg-white/10 rounded-b-xl flex flex-col z-50 md:hidden">
+        <div class="flex items-center justify-between p-2 ">
+          <span class="ml-2">
+            <i class="fa-solid fa-bars burger cursor-pointer hover:text-amber-200"></i>
           </span>
+          <div>
+            <img src="./public/imgs/LogoLJF.svg" alt="" id="logo" class="w-8 h-8 object-contain mr-2">
+          </div>
         </div>
-        <div class="formGroup relative  flex flex-col border-b-2">
-          <input type="text" class="formControl  ml-8 outline-none" id="contactSubject" name="subject" placeholder="Asunto:" required>
-          <span class="absolute left-1 top-1/2 -translate-y-1/2  pointer-events-none">
-            <i class="fa-solid fa-briefcase"></i>
-          </span>
+        <div class="side-bar ocultar">
+          <ul class="flex flex-col gap-2 ml-2 p-2 ">
+            <a href="#" class="hover:text-amber-200">BIO</a>
+            <a href="#TECNOLOGIAS" class="hover:text-amber-200">TECNOLOGIAS</a>
+            <a href="#PROYECTOS" class="hover:text-amber-200">CERTIFICADOS</a>
+            <a href="#CERTIFICADOS" class="hover:text-amber-200">PROYECTOS</a>
+            <a href="#CONTACTO" class="hover:text-amber-200">CONTACTO</a>
+            <span id="switch" class="cursor-pointer hover:text-amber-200"><i
+                class="fa-solid fa-circle-half-stroke"></i></span>
+          </ul>
         </div>
-        <div class="formGroup flex flex-col">
-          <textarea class="formControl border-b-2 " name="message" id="contactMessage" rows="5" placeholder="Ingrese aqui su Mensaje..." required></textarea>
+      </section>
+
+
+      <!-- ------------------------------------Menu desktop----------------------------------------------------- -->
+      <section id="Menu-desktop"
+        class="hidden  md:block backdrop-blur-3xl bg-white/10  fixed top-0 w-full h-16 content-center shadow-2xl z-50">
+        <div class="flex items-center justify-evenly ">
+          <div>
+            <img src="./public/imgs/LogoLJF.svg" alt="" id="logo" class="  w-8 h-8 object-contain   ">
+          </div>
+          <div class=" flex items-end justify-end gap-16  text-[16px] font-sans ">
+
+            <a href="#" class="hover:text-amber-200 ">BIO</a>
+            <a href="#TECNOLOGIAS" class="hover:text-amber-200 ">TECNOLOGIAS</a>
+            <a href="#PROYECTOS" class="hover:text-amber-200 ">CERTIFICADOS</a>
+            <a href="#CERTIFICADOS" class="hover:text-amber-200 ">PROYECTOS</a>
+            <a href="#CONTACTO" class="hover:text-amber-200 ">CONTACTO</a>
+            <span id="switch2" class="cursor-pointer hover:text-amber-200 "><i
+                class="fa-solid fa-circle-half-stroke"></i></span>
+
+          </div>
+        </div>
+      </section>
+
+    </nav>
+  </header>
+  <main class="flex flex-col gap-20">
+    <!-- ------------------------------BIO  /  inicio------------------------------ -->
+    <section
+      class="mt-32 flex flex-col justify-center  md:flex-row-reverse gap-16 pb-8 mx-4 backdrop-blur-2xl md:border-b-2 md:border-x-2 rounded-3xl md:shadow-2xl md:mt-38"
+      data-aos="fade-right" data-aos-anchor-placement="top-bottom  data-aos=" data-aos-duration="2000">
+      <div class="flex items-center justify-center">
+        <img src="./public/imgs/unnamed-removebg.png" alt="" id="img-perfil"
+          class=" transition-transform duration-300 ease-linear hover:scale-105">
+      </div>
+      <div class="flex flex-col items-center justify-center mt-12 text-center">
+        <h1 class="text-6xl  font-bold hover:text-amber-200 transition-all">LUCAS JAVIER FERNANDEZ</h1>
+        <div class="flex flex-col gap-4 text-3xl lg:flex-row ">
+          <h2 class="hover:text-amber-200 transition-all">FULLSTACK DEVELOPER</h2>
+          <div class="text-[color:gold] ">
+            <a href="https://www.linkedin.com/in/lucasjavierfernandez/" target="_blank"><i
+                class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/Lucasjavierf" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="mailto:lucasjavierf10@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+          </div>
         </div>
 
-        <div class="formGroup flex flex-col justify-center items-center  formSubmit">
-        <button type="submit" class=" rounded-xl  w-[50%] bg-black text-white font-bold hover:text-amber-200 hover:border-amber-200 btn-form ">Enviar  <i class="fa-solid fa-paper-plane"></i> </button>
-        </div>
-      </form>
-    </div >
-    
-       <div class="hidden  md:block h-[530px]"  >
-        <img src="./public/imgs/imagen-de-primer-plano-del-programador-trabajando-en-su-escritorio-en-la-oficina.jpg" alt="" class="w-99 h-full object-cover">
-       </div>
-    
-  </div>
-  </section>
-
-  
- 
-       
-</main>
-
-<footer class=" bg-black text-white w-full mt-10">
-    <section class="grid grid-cols-2 grid-rows-1 place-items-center">
-        <p class="hover:text-amber-200">© 2025  Lucas Javier Fernández.</p>
-        <ul class="flex gap-8 ">
-          <a href="https://www.linkedin.com/in/lucasjavierfernandez/" target="_blank" class="flex gap-2 items-center justify-center hover:text-amber-200"><i class="fa-brands fa-linkedin text-cyan-500 text-xl"></i>LinkedIN</a>
-          <a href="https://github.com/Lucasjavierf" target="_blank" class="flex gap-2 items-center justify-center hover:text-amber-200 "><i class="fa-brands fa-github text-white text-l"></i>GitHub</a>
-        </ul>
+      </div>
     </section>
-</footer>    
-    <script type="module" src="/src/main.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
-    <script>
-      AOS.init();
-    </script>
-  </body>
+
+    <h2></h2>
+    <!-- -----------------------------BIO / Sobre Mi----------------------------------------- -->
+
+    <section id="abautMe" class="flex flex-col pb-2 gap-14 md:mt-12  md:border-x-2 rounded-2xl mx-4 shadow-2xl"
+      data-aos="fade-up-left" data-aos-duration="2000">
+
+      <div class="flex flex-col justify-center mx-20 gap-8 ">
+        <h2 class="text-3xl text-center font-bold hover:text-amber-200">SOBRE MI.</h2>
+        <div class="md:flex gap-6 ">
+          <img src="./public/imgs/freepik-developer.jpg" alt=""
+            class="hidden md:block w-104 h-70 object-cover rounded-3xl" data-aos="fade-right" data-aos-duration="2000">
+          <p class="text-center items-center text-[1.1rem] md:flex justify-center " data-aos="fade-left"
+            data-aos-duration="2000">
+            Soy estudiante de Sistemas y desarrollador full stack con conocimientos en programación web.
+            Estoy en constante aprendizaje para profundizar en nuevas tecnologías y seguir creciendo en el sector IT.
+            Busco oportunidades en donde pueda aplicar mis habilidades, enfrentar nuevos desafíos y contribuir al
+            crecimiento de un equipo.
+            Me caracterizo por mi compromiso, mi capacidad de adaptación y mi habilidad para aprender rápidamente.
+          </p>
+        </div>
+
+      </div>
+
+      <div class="flex flex-col gap-4 ">
+        <h3 class="text-3xl font-bold text-center hover:text-amber-200">CURRICULUM VITAE</h3>
+        <div class="text-center text-6xl hover:text-amber-200">
+          <a href="https://drive.google.com/file/d/1JbdWqpl8pYZERen755p3L872dbjG95hb/view?usp=sharing"
+            target="_blank"><i class="fa-solid fa-download"></i></a>
+        </div>
+    </section>
+
+    <!---------- ---------------------------------------Tenologias--------------------------------------------------------- -->
+    <h2 id="TECNOLOGIAS" class="text-center text-3xl  font-bold hover:text-amber-200" data-aos="fade-up-right"
+      data-aos-duration="2000">TECNOLOGIAS / HERRAMIENTAS</h2>
+    <!-- ---------------------------------------------pantalla celular------------------------------------------------------------ -->
+    <section id="tec-mobile">
+      <div class=" mx-16" data-aos="flip-left" data-aos-duration="2000">
+        <div class="grid grid-cols-2 grid-rows-5  place-items-center gap-4 md:hidden ">
+          <div
+            class=" card-lev shadow-2xl flex flex-col justify-center items-center gap-2 border-2 hover:border-amber-200 rounded-3xl h-fit w-fit p-4">
+            <img src="./public/imgs/HTML5_svg.png" alt="" class="w-20 h-20 object-contain">
+            <p>HTML</p>
+          </div>
+          <div
+            class="card-lev2 shadow-2xl flex flex-col justify-center items-center gap-2 border-2 hover:border-amber-200 rounded-3xl h-fit w-fit p-4">
+            <img src="./public/logos/css.svg" alt="" class="w-20 h-20 object-contain">
+            <p>CSS</p>
+          </div>
+          <div
+            class="card-lev2 shadow-2xl flex flex-col justify-center items-center gap-2 border-2 hover:border-amber-200 rounded-3xl h-fit w-fit p-4">
+            <img src="./public/logos/javascript.svg" alt="" class="w-20 h-20 object-contain">
+            <p>JavaScript</p>
+          </div>
+          <div
+            class="card-lev  shadow-2xlflex flex-col justify-center items-center gap-2 border-2 hover:border-amber-200 rounded-3xl h-fit w-fit p-4">
+            <img src="./public/logos/tailwindcss.svg" alt="" class="w-20 h-20 object-contain">
+            <p>Tailwind</p>
+          </div>
+          <div
+            class="card-lev shadow-2xl flex flex-col justify-center items-center gap-2 border-2 hover:border-amber-200 rounded-3xl h-fit w-fit p-4">
+            <img src="./public/logos/React_light_dark/React_dark.svg" alt="" class="w-20 h-20 object-contain">
+            <p>React</p>
+          </div>
+          <div
+            class="card-lev2 shadow-2xl flex flex-col justify-center items-center gap-2 border-2 hover:border-amber-200 rounded-3xl h-fit w-fit p-4">
+            <img src="./public/logos/angular.svg" alt="" class="w-20 h-20 object-contain">
+            <p>Angular </p>
+          </div>
+          <div
+            class="card-lev2 shadow-2xl flex flex-col justify-center items-center gap-2 border-2 hover:border-amber-200 rounded-3xl h-fit w-fit p-4">
+            <img src="./public/logos/nodejs.svg" alt="" class="w-20 h-20 object-contain ">
+            <p>NodeJs</p>
+          </div>
+          <div
+            class="card-lev  shadow-2xlflex flex-col justify-center items-center gap-2 border-2 hover:border-amber-200 rounded-3xl h-fit w-fit p-4">
+            <img src="./public/logos/mongodb.svg" alt="" class="w-20 h-20 object-contain">
+            <p>MongoDB</p>
+          </div>
+          <div
+            class="card-lev shadow-2xl flex flex-col justify-center items-center gap-2 border-2 hover:border-amber-200 rounded-3xl h-fit w-fit p-4">
+            <img src="./public/logos/git.svg" alt="" class="w-20 h-20 object-contain">
+            <p>Git</p>
+          </div>
+          <div
+            class="card-lev2 shadow-2xl flex flex-col justify-center items-center gap-2 border-2 hover:border-amber-200 rounded-3xl h-fit w-fit p-4">
+            <img src="./public/logos/bash_dark.svg" alt="" class="w-20 h-20 object-contain">
+            <p>Bash</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- -------------------------------------------Pantalla desktop----------------------------------------------------- -->
+    <section id="tec-desktop" class="hidden md:flex flex-col  mx-4 gap-16 " data-aos="flip-up" data-aos-duration="2000">
+      <div id="contenedor-slide"
+        class="slide w-[80%] border-x-2 rounded-3xl  flex h-36 m-auto justify-center items-center  overflow-x-hidden whitespace-nowrap ">
+        <div id="slider-track" class="slider-track flex justify-center gap-8 ">
+          <div
+            class="card-lev shadow-2xl w-30 h-30 flex flex-col justify-center items-center border-2 rounded-3xl p-4 hover:scale-105 hover:border-amber-200">
+            <img src="./public/logos/html5.svg" alt="" class="w-16 h-16 object-contain">
+            <p class="text-center">HTML</p>
+          </div>
+          <div
+            class="card-lev2 shadow-2xl w-30 h-30 flex flex-col justify-center items-center border-2 rounded-3xl p-4 hover:scale-105 hover:border-amber-200">
+            <img src="./public/logos/css.svg" alt="" class="w-16 h-16 object-contain">
+            <p class="text-center">CSS</p>
+          </div>
+          <div
+            class="card-lev shadow-2xl w-30 h-30 flex flex-col justify-center items-center border-2 rounded-3xl p-4 hover:scale-105 hover:border-amber-200">
+            <img src="./public/logos/tailwindcss.svg" alt="" class="w-16 h-16 object-contain">
+            <p class="text-center">Tailwind</p>
+          </div>
+          <div
+            class="card-lev2 shadow-2xl w-30 h-30 flex flex-col justify-center items-center border-2 rounded-3xl p-4 hover:scale-105 hover:border-amber-200">
+            <img src="./public/logos/javascript.svg" alt="" class="w-16 h-16 object-contain">
+            <p class="text-center">JavaScript</p>
+          </div>
+          <div
+            class="card-lev shadow-2xl w-30 h-30 flex flex-col justify-center items-center border-2 rounded-3xl p-4 hover:scale-105 hover:border-amber-200">
+            <img src="./public/logos/nodejs.svg" alt="" class="w-16 h-16 object-contain">
+            <p class="text-center">NodeJs</p>
+          </div>
+          <div
+            class="card-lev2 shadow-2xl w-30 h-30 flex flex-col justify-center items-center border-2 rounded-3xl p-4 hover:scale-105 hover:border-amber-200">
+            <img src="./public/logos/bash_dark.svg" alt="" class="w-16 h-16 object-contain">
+            <p class="text-center">Bash</p>
+          </div>
+          <div
+            class="card-lev shadow-2xl w-30 h-30 flex flex-col justify-center items-center border-2 rounded-3xl p-4 hover:scale-105 hover:border-amber-200">
+            <img src="./public/logos/git.svg" alt="" class="w-16 h-16 object-contain">
+            <p class="text-center">Git</p>
+          </div>
+          <div
+            class="card-lev2 shadow-2xl w-30 h-30 flex flex-col justify-center items-center border-2 rounded-3xl p-4 hover:scale-105 hover:border-amber-200">
+            <img src="./public/logos/mongodb.svg" alt="" class="w-16 h-16 object-contain">
+            <p class="text-center">MongoDB</p>
+          </div>
+          <div
+            class="card-lev shadow-2xl w-30 h-30 flex flex-col justify-center items-center border-2 rounded-3xl p-4 hover:scale-105 hover:border-amber-200">
+            <img src="./public/logos/angular.svg" alt="" class="w-16 h-16 object-contain">
+            <p class="text-center">Angular</p>
+          </div>
+          <div
+            class="card-lev2 shadow-2xl w-30 h-30 mr-8 flex flex-col justify-center items-center border-2 rounded-3xl p-4  hover:scale-105 hover:border-amber-200">
+            <img src="./public/logos/React_light_dark/React_dark.svg" alt="" class="w-16 h-16 object-contain">
+            <p class="text-center">React</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <!-- -------------------------------------------------------PROYECTOS--------------------------------------------------------- -->
+    <h2 id="PROYECTOS" class="text-center text-3xl  font-bold hover:text-amber-200" data-aos="fade-up-right"
+      data-aos-duration="2000">PROYECTOS</h2>
+
+    <section class="flex m-auto w-screen justify-center items-center">
+      <div class="flex flex-col mx-4 justify-center items-center gap-16 md:w-[80%] p-0">
+        <div class="border-2 border-cyan-900 iluminar hover:border-amber-200 hover:border-2 shadow-2xl flex flex-col items-center justify-center  overflow-hidden w-full   text-center backdrop-blur-3xl bg-white/10 rounded-xl p-6 gap-4 md:flex-row md:h-[450px]  " data-aos="zoom-in">
+          <div class="flex w-full h-32 shadow-2xl  rounded-2xl overflow-hidden md:h-[400px]">
+            <img src="./public/Proyectos_imgs/rumbox1.jpeg" alt="" class="GalProyects">
+            <img src="./public/Proyectos_imgs/rumbox2.jpeg" alt="" class="GalProyects">
+            <img src="./public/Proyectos_imgs/rumbox3.jpeg" alt="" class="GalProyects">
+          </div>
+          <div class="space-y-8 md:flex flex-col items-center gap-8 w-[100%] md:space-y-0">
+            <h4 class="font-bold text-3xl hover:text-amber-200 md:text-5xl">RumBox.</h4>
+            <p class="text-xl "> Proyecto en desarrollo realizado en equipo dentro de la Fundación Pescar. Se trata de
+              una plataforma e-commerce orientada a la venta de productos para viajeros, con el objetivo de ofrecer
+              soluciones prácticas y accesibles para quienes están en constante movimiento.</p>
+            <a class="text-l rounded-xl hover:text-amber-200 w-[60%] p-2 px-8 backdrop-blur-3xl bg-white/10 cursor-pointer iluminar md:text-xl"
+              href="https://practica-tailwind-rumbox.netlify.app/" target="_blank">
+              Ver pagina Web <i class="fa-solid fa-laptop-code"></i>
+            </a>
+          </div>
+
+        </div>
+
+        <div class="border-2 border-cyan-900 iluminar hover:border-amber-200 hover:border-2 shadow-2xl flex flex-col items-center justify-center  overflow-hidden w-full   text-center backdrop-blur-3xl bg-white/10 rounded-xl p-6 gap-4 md:flex-row md:h-[450px]  " data-aos="zoom-in">
+          <div class="flex w-full h-32 shadow-2xl  rounded-2xl overflow-hidden md:h-[400px]">
+            <img src="./public/Proyectos_imgs/utn1.jpeg" alt="" class="GalProyects">
+            <img src="./public/Proyectos_imgs/utn2.jpeg" alt="" class="GalProyects">
+            <img src="./public/Proyectos_imgs/utn4.jpeg" alt="" class="GalProyects">
+          </div>
+          <div class="space-y-8 md:flex flex-col items-center gap-8 w-[100%] md:space-y-0">
+            <h4 class="font-bold text-3xl hover:text-amber-200 md:text-5xl">Smart-Shop.</h4>
+            <p class="text-xl"> Primer proyecto realizado durante una cursada en la UTN. Se trata de una página web
+            estática estilo e-commerce, diseñada para simular la venta de productos tecnológicos.</p>
+            <a class="text-l rounded-xl hover:text-amber-200 w-[60%] p-2 px-8 backdrop-blur-3xl bg-white/10 cursor-pointer iluminar md:text-xl"
+              href="https://github.com/Lucasjavierf/ProjectoUTN-Smart-Shop." target="_blank">
+              Ver codigo GIT <i class="fa-solid fa-laptop-code"></i>
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- -----------------------------------------------------Certificados---------------------------------------------- -->
+    <h2 id="CERTIFICADOS" class="text-center text-3xl  font-bold hover:text-amber-200" data-aos="fade-up-left"
+      data-aos-duration="2000">CERTIFICADOS</h2>
+    <!-- -----------------------------------------------certificaciones mobile------------------------------------------------------ -->
+    <section class="flex  md:hidden">
+      <div class=" mx-auto " data-aos="flip-left" data-aos-duration="2000">
+        <div class="grid grid-cols-2 grid-rows-3  w-full gap-8">
+          <div
+            class="iluminar hover:border-amber-200  hover:border-2 shadow-2xl flex flex-col items-center w-[200px] h-[260px] text-center backdrop-blur-3xl bg-white/10 rounded-xl p-6 gap-4">
+            <img src="./public/Certificados Programacion/int-proEducacionIT.webp" alt="" class="">
+            <h4 class="font-bold">Introduccion a la programacion.</h4>
+            <a class="text-xs rounded-xl hover:text-amber-300   w-full p-2 backdrop-blur-3xl bg-white/10 cursor-pointer iluminar "
+              href="https://www.educacionit.com/perfil/lucas-javier-fernandez-652297/certificado/54677?_gl"
+              target="_blank">
+              Ver Certificado <i class="fa-solid fa-medal"></i>
+            </a>
+          </div>
+          <div
+            class="iluminar hover:border-amber-200 hover:border-2 shadow-2xl flex flex-col items-center w-[200px] h-[260px] text-center backdrop-blur-3xl bg-white/10 rounded-xl p-6 gap-4">
+            <img src="./public/Certificados Programacion/HTML-EducacionIT.webp" alt="" class="">
+            <h4 class="font-bold">Desarrollo Web con HTML.</h4>
+            <a class="text-xs rounded-xl  w-full p-2 backdrop-blur-3xl bg-white/10 cursor-pointer iluminar"
+              href="https://www.educacionit.com/perfil/lucas-javier-fernandez-652297/certificado/80151?_gl=1*o6f2vv*_ga*OTYwOTA4ODcwLjE3NDY3NTk1OTY.*_ga_R8GR8LL2B8*czE3NDcwOTE3MzYkbzMkZzAkdDE3NDcwOTE3MzYkajYwJGwxJGgyMDQ5NDY2OTU1"
+              target="_blank">
+              Ver Certificado <i class="fa-solid fa-medal"></i>
+            </a>
+          </div>
+          <div
+            class="iluminar hover:border-amber-200 hover:border-2 shadow-2xl flex flex-col items-center w-[200px] h-[260px] text-center backdrop-blur-3xl bg-white/10 rounded-xl p-6 gap-4">
+            <img src="./public/Certificados Programacion/JavaScript-EducacionIT.webp" alt="" class="">
+            <h4 class="font-bold">Javascript desde cero</h4>
+            <a class="text-xs rounded-xl  w-full p-2 backdrop-blur-3xl bg-white/10 cursor-pointer  iluminar shadow-2xl "
+              href="https://www.educacionit.com/perfil/lucas-javier-fernandez-652297/certificado/80152?_gl=1*1a4i306*_ga*OTYwOTA4ODcwLjE3NDY3NTk1OTY.*_ga_R8GR8LL2B8*czE3NDcxMDIzNDckbzQkZzEkdDE3NDcxMDI3ODYkajU2JGwxJGgyMDYxMjQzMzA1"
+              target="_blank">
+              Ver Certificado <i class="fa-solid fa-medal"></i>
+            </a>
+          </div>
+          <div
+            class="iluminar hover:border-amber-200 hover:border-2 shadow-2xl flex flex-col items-center w-[200px] h-[260px] text-center backdrop-blur-3xl bg-white/10 rounded-xl p-6 gap-4">
+            <img src="./public/Certificados Programacion/Certificado-Maquetador-Web-Avanzado-EducaciónIT.png" alt=""
+              class="">
+            <h4 class="font-bold">Maqueteador Web Avanzado</h4>
+            <a class="text-xs rounded-xl  w-full p-2 backdrop-blur-3xl bg-white/10 cursor-pointer  iluminar shadow-2xl "
+              href="https://www.educacionit.com/perfil/lucas-javier-fernandez-652297/certificado/80154?_gl=1*2cale3*_ga*OTYwOTA4ODcwLjE3NDY3NTk1OTY.*_ga_R8GR8LL2B8*czE3NDcxMDIzNDckbzQkZzEkdDE3NDcxMDI4NzEkajUxJGwxJGgyMDYxMjQzMzA1"
+              target="_blank">
+              Ver Certificado <i class="fa-solid fa-medal"></i>
+            </a>
+          </div>
+          <div
+            class="iluminar hover:border-amber-200 hover:border-2 shadow-2xl flex flex-col items-center w-[200px] h-[260px] text-center backdrop-blur-3xl bg-white/10 rounded-xl p-6 gap-4">
+            <img
+              src="./public/Certificados Programacion/Certificado-Programación-orientada-a-objetos-con-IA-EducaciónIT.png"
+              alt="" class="">
+            <h4 class="font-bold">Programacion orientada a objetos </h4>
+            <a class="text-xs rounded-xl  w-full p-2 backdrop-blur-3xl bg-white/10 cursor-pointer iluminar"
+              href="https://www.educacionit.com/perfil/lucas-javier-fernandez-652297/certificado/80153?_gl=1*u3tt38*_ga*OTYwOTA4ODcwLjE3NDY3NTk1OTY.*_ga_R8GR8LL2B8*czE3NDcxMDIzNDckbzQkZzEkdDE3NDcxMDQxMDEkajUwJGwxJGgyMDYxMjQzMzA1"
+              target="_blank">
+              Ver Certificado <i class="fa-solid fa-medal"></i>
+            </a>
+          </div>
+          <div
+            class="iluminar hover:border-amber-200 hover:border-2 shadow-2xl flex flex-col items-center w-[200px] h-[260px] text-center backdrop-blur-3xl bg-white/10 rounded-xl p-6 gap-4">
+            <img src="./public/Certificados Programacion/Certificado-Git_-Desarrollo-Colaborativo-EducaciónIT.png"
+              alt="" class="">
+            <h4 class="font-bold">GIT: Desarrollo colaborativo.</h4>
+            <a class="text-xs rounded-xl  w-full p-2 backdrop-blur-3xl bg-white/10 cursor-pointer iluminar"
+              href="https://www.educacionit.com/perfil/lucas-javier-fernandez-652297/certificado/80155?_gl=1*b4meyy*_ga*OTYwOTA4ODcwLjE3NDY3NTk1OTY.*_ga_R8GR8LL2B8*czE3NDcxMDIzNDckbzQkZzEkdDE3NDcxMDQxNjIkajU2JGwxJGgyMDYxMjQzMzA1"
+              target="_blank">
+              Ver Certificado <i class="fa-solid fa-medal"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- certificaciones desktop------------------------------------------------------------------------------------------- -->
+    <section class="hidden md:flex flex-col gap-16 mx-16 overflow-hidden min-w-9/12 ">
+      <div class="mx-auto w-full flex gap-x-16" data-aos="fade-right" data-aos-duration="1000">
+        <div
+          class="border-2 border-cyan-900 iluminar hover:border-amber-200 hover:border-2 shadow-2xl flex flex-col items-center w-full h-[400px] text-center backdrop-blur-3xl bg-white/10 rounded-xl p-6 gap-4">
+          <img src="./public/Certificados Programacion/int-proEducacionIT.webp" alt="" class="">
+          <h4 class="font-bold">Introduccion a la programacion.</h4>
+          <a class="text-xs  rounded-xl  w-[60%] p-2 backdrop-blur-3xl bg-white/10 cursor-pointer iluminar hover:text-amber-200"
+            href="https://www.educacionit.com/perfil/lucas-javier-fernandez-652297/certificado/54677?_gl"
+            target="_blank">
+            Ver Certificado <i class="fa-solid fa-medal"></i>
+          </a>
+        </div>
+        <div
+          class="border-2 border-cyan-900 iluminar hover:border-amber-200 hover:border-2 shadow-2xl flex flex-col items-center w-full h-[400px] text-center backdrop-blur-3xl bg-white/10 rounded-xl p-6 gap-4">
+          <img src="./public/Certificados Programacion/HTML-EducacionIT.webp" alt="" class="">
+          <h4 class="font-bold">Desarrollo Web con HTML y CSS.</h4>
+          <a class="text-xs rounded-xl  w-[60%] p-2 backdrop-blur-3xl bg-white/10 cursor-pointer iluminar hover:text-amber-200"
+            href="https://www.educacionit.com/perfil/lucas-javier-fernandez-652297/certificado/80151?_gl=1*o6f2vv*_ga*OTYwOTA4ODcwLjE3NDY3NTk1OTY.*_ga_R8GR8LL2B8*czE3NDcwOTE3MzYkbzMkZzAkdDE3NDcwOTE3MzYkajYwJGwxJGgyMDQ5NDY2OTU1"
+            target="_blank">
+            Ver Certificado <i class="fa-solid fa-medal"></i>
+          </a>
+        </div>
+        <div
+          class="border-2 border-cyan-900 iluminar hover:border-amber-200 hover:border-2 shadow-2xl flex flex-col items-center w-full h-[400px] text-center backdrop-blur-3xl bg-white/10 rounded-xl p-6 gap-4">
+          <img src="./public/Certificados Programacion/JavaScript-EducacionIT.webp" alt="" class="">
+          <h4 class="font-bold">Desarrollo Javascript desde cero</h4>
+          <a class="text-xs rounded-xl  w-[60%] p-2 backdrop-blur-3xl bg-white/10 cursor-pointer  iluminar hover:text-amber-200 shadow-2xl "
+            href="https://www.educacionit.com/perfil/lucas-javier-fernandez-652297/certificado/80152?_gl=1*1a4i306*_ga*OTYwOTA4ODcwLjE3NDY3NTk1OTY.*_ga_R8GR8LL2B8*czE3NDcxMDIzNDckbzQkZzEkdDE3NDcxMDI3ODYkajU2JGwxJGgyMDYxMjQzMzA1"
+            target="_blank">
+            Ver Certificado <i class="fa-solid fa-medal"></i>
+          </a>
+        </div>
+
+      </div>
+
+      <div class="mx-auto w-full flex gap-x-16" data-aos="fade-left" data-aos-duration="1000">
+        <div
+          class="border-2 border-cyan-900 iluminar hover:border-amber-200 hover:border-2 shadow-2xl flex flex-col items-center w-full h-[400px] text-center backdrop-blur-3xl bg-white/10 rounded-xl p-6 gap-4">
+          <img src="./public/Certificados Programacion/Certificado-Maquetador-Web-Avanzado-EducaciónIT.png" alt=""
+            class="">
+          <h4 class="font-bold">Maqueteador Web Avanzado</h4>
+          <a class="text-xs rounded-xl  w-[60%] p-2 backdrop-blur-3xl bg-white/10 cursor-pointer  iluminar hover:text-amber-200 shadow-2xl "
+            href="https://www.educacionit.com/perfil/lucas-javier-fernandez-652297/certificado/80154?_gl=1*2cale3*_ga*OTYwOTA4ODcwLjE3NDY3NTk1OTY.*_ga_R8GR8LL2B8*czE3NDcxMDIzNDckbzQkZzEkdDE3NDcxMDI4NzEkajUxJGwxJGgyMDYxMjQzMzA1"
+            target="_blank">
+            Ver Certificado <i class="fa-solid fa-medal"></i>
+          </a>
+        </div>
+        <div
+          class="border-2 border-cyan-900 iluminar hover:border-amber-200 hover:border-2 shadow-2xl flex flex-col items-center w-full h-[400px] text-center backdrop-blur-3xl bg-white/10 rounded-xl p-6 gap-4">
+          <img
+            src="./public/Certificados Programacion/Certificado-Programación-orientada-a-objetos-con-IA-EducaciónIT.png"
+            alt="" class="">
+          <h4 class="font-bold">Programacion orientada a objetos </h4>
+          <a class="text-xs rounded-xl  w-[60%] p-2 backdrop-blur-3xl bg-white/10 cursor-pointer iluminar hover:text-amber-200"
+            href="https://www.educacionit.com/perfil/lucas-javier-fernandez-652297/certificado/80153?_gl=1*u3tt38*_ga*OTYwOTA4ODcwLjE3NDY3NTk1OTY.*_ga_R8GR8LL2B8*czE3NDcxMDIzNDckbzQkZzEkdDE3NDcxMDQxMDEkajUwJGwxJGgyMDYxMjQzMzA1"
+            target="_blank">
+            Ver Certificado <i class="fa-solid fa-medal"></i>
+          </a>
+        </div>
+        <div
+          class="border-2 border-cyan-900 iluminar  hover:border-amber-200 hover:border-2 shadow-2xl  flex flex-col items-center w-full h-[400px] text-center backdrop-blur-3xl bg-white/10 rounded-xl p-6 gap-4">
+          <img src="./public/Certificados Programacion/Certificado-Git_-Desarrollo-Colaborativo-EducaciónIT.png" alt=""
+            class="">
+          <h4 class="font-bold">GIT: Desarrollo colaborativo.</h4>
+          <a class="text-xs rounded-xl  w-[60%] p-2 backdrop-blur-3xl bg-white/10 cursor-pointer iluminar hover:text-amber-200"
+            href="https://www.educacionit.com/perfil/lucas-javier-fernandez-652297/certificado/80155?_gl=1*b4meyy*_ga*OTYwOTA4ODcwLjE3NDY3NTk1OTY.*_ga_R8GR8LL2B8*czE3NDcxMDIzNDckbzQkZzEkdDE3NDcxMDQxNjIkajU2JGwxJGgyMDYxMjQzMzA1"
+            target="_blank">
+            Ver Certificado <i class="fa-solid fa-medal"></i>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+
+
+
+    <!-- ----------------------------------------------formulario--------------------------------------------- -->
+    <h2 id="CONTACTO" class="text-center text-3xl  font-bold hover:text-amber-200" data-aos="fade-up-left"
+      data-aos-duration="2000">CONTACTO</h2>
+    <section class="flex justify-center items-center mx-30 " data-aos="fade-left" data-aos-duration="2000">
+      <div
+        class=" flex justify-center items-center border-2 iluminar  hover:border-amber-200 backdrop-blur-3xl bg-white/10  h-fit w-fit shadow-2xl">
+        <div class=" p-16 h-[520px]  " data-aos="zoom-in" data-aos-duration="2000">
+          <form action="https://formspree.io/f/xyzebdbg" method="POST" class="contactForm flex flex-col  gap-8">
+            <h2 class="contentTitle text-center text-2xl font-bold">Trabajemos juntos!! <i
+                class="fa-solid fa-handshake"></i> </h2>
+            <div class="formGroup relative  flex flex-col border-b-2">
+              <input type="text" class="formControl  ml-8 outline-none" id="contactName" name="name"
+                placeholder="Nombre:" required>
+              <span class="absolute left-1 top-1/2 -translate-y-1/2  pointer-events-none">
+                <i class="fa-solid fa-user"></i>
+              </span>
+            </div>
+            <div class="formGroup relative  flex flex-col border-b-2">
+              <input type="email" class="formControl  ml-8 outline-none" id="contactEmail" name="email"
+                placeholder="Correo electrónico:" required>
+              <span class="absolute left-1 top-1/2 -translate-y-1/2  pointer-events-none">
+                <i class="fa-solid fa-envelope"></i>
+              </span>
+            </div>
+            <div class="formGroup relative  flex flex-col border-b-2">
+              <input type="text" class="formControl  ml-8 outline-none" id="contactSubject" name="subject"
+                placeholder="Asunto:" required>
+              <span class="absolute left-1 top-1/2 -translate-y-1/2  pointer-events-none">
+                <i class="fa-solid fa-briefcase"></i>
+              </span>
+            </div>
+            <div class="formGroup flex flex-col">
+              <textarea class="formControl border-b-2 " name="message" id="contactMessage" rows="5"
+                placeholder="Ingrese aqui su Mensaje..." required></textarea>
+            </div>
+
+            <div class="formGroup flex flex-col justify-center items-center  formSubmit">
+              <button type="submit"
+                class=" rounded-xl  w-[50%] bg-black text-white font-bold hover:text-amber-200 hover:border-amber-200 btn-form ">Enviar
+                <i class="fa-solid fa-paper-plane"></i> </button>
+            </div>
+          </form>
+        </div>
+
+        <div class="hidden  md:block h-[530px]">
+          <img src="./public/imgs/imagen-de-primer-plano-del-programador-trabajando-en-su-escritorio-en-la-oficina.jpg"
+            alt="" class="w-99 h-full object-cover">
+        </div>
+
+      </div>
+    </section>
+
+
+
+
+  </main>
+
+  <footer class=" bg-black text-white w-full mt-10">
+    <section class="grid grid-cols-2 grid-rows-1 place-items-center">
+      <p class="hover:text-amber-200">© 2025 Lucas Javier Fernández.</p>
+      <ul class="flex gap-8 ">
+        <a href="https://www.linkedin.com/in/lucasjavierfernandez/" target="_blank"
+          class="flex gap-2 items-center justify-center hover:text-amber-200"><i
+            class="fa-brands fa-linkedin text-cyan-500 text-xl"></i>LinkedIN</a>
+        <a href="https://github.com/Lucasjavierf" target="_blank"
+          class="flex gap-2 items-center justify-center hover:text-amber-200 "><i
+            class="fa-brands fa-github text-white text-l"></i>GitHub</a>
+      </ul>
+    </section>
+  </footer>
+  <script type="module" src="/src/main.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
 </html>
