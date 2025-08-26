@@ -26,3 +26,4 @@ document.getElementById('contenedor-slide').appendChild(iconos);
 /* -----------------------------------------------------AOZ animaciones---------------------------------- */
 /* AOS.init();
  */
+
