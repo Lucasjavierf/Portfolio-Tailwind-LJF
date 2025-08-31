@@ -1,5 +1,7 @@
 @import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Cinzel:wght@400..900&family=Kumbh+Sans:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 /* ------------------ RESET GENERAL ------------------ */
 @layer 
 base
@@ -145,4 +147,17 @@ input::placeholder, textarea::placeholder {
 
 
 
+.swiper {
+  width: 90vw;
+  height: 460px;
+}
 
+.swiper-button-prev, .swiper-button-next{
+  color:  black;
+  font: bold;
+}
+.swiper-slide{
+  margin: auto;
+  justify-items: center;
+  justify-content: center;
+}
