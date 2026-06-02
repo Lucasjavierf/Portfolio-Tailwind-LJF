@@ -29,16 +29,6 @@ document.getElementById('contenedor-slide').appendChild(iconos);
 /* -----------------------------------------------------AOZ animaciones---------------------------------- */
 /* AOS.init();
  */
-<<<<<<< HEAD
-new Glider(document.querySelector('.glider'), {
-  slidesToShow: 5,
-  slidesToScroll: 1,
-  draggable: true,
-  dots: '.dots',
-  arrows: {
-    prev: '.glider-prev',
-    next: '.glider-next'
-=======
 
 const swiper = new Swiper('.swiper', {
   // Optional parameters
@@ -72,6 +62,5 @@ const swiper = new Swiper('.swiper', {
     1024:{
       slidesPerView: 3
     }
->>>>>>> e4dabb3519550d56acd253ae23c1ea773f9cf134
   }
 });
